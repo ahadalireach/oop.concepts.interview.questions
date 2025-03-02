@@ -31,8 +31,15 @@
 | 25  | [What Does it Mean by Inline Functions, Default Arguments, & Constant Arguments in C++?](#what-does-it-mean-by-inline-functions-default-arguments--constant-arguments-in-c) |
 | 26  | [Recursion and Recursive Function in C++?](#recursion-and-recursive-function-in-c)                                                                                          |
 | 27  | [What is Function Overloading?](#what-is-function-overloading)                                                                                                              |
-
----
+| 28   | [What is the `new` keyword/operator in C++ and its purpose and benefits?](#what-is-the-new-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 29   | [What is the `delete` keyword/operator in C++ and its purpose and benefits?](#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 30   | [What is OOP?](#what-is-oop) |
+| 31   | [Why OOP? Purpose of Implementing OOP?](#why-oop-purpose-of-implementing-oop) |
+| 32   | [Why is OOP so popular?](#why-is-oop-so-popular) |
+| 33   | [Pros and Cons of Object-Oriented Programming (OOP)](#pros-and-cons-of-object-oriented-programming-oop) |
+| 34   | [Difference between Object-Oriented Programming vs Structural Programming](#difference-between-object-oriented-programming-vs-structural-programming) |
+| 35   | [Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)](#difference-between-procedure-oriented-programming-pop-and-object-oriented-programming-oop) |
+| 36   | [What do you understand by a pure object-oriented language?](#what-do-you-understand-by-a-pure-object-oriented-language) |
 
 ---
 
@@ -273,7 +280,7 @@ Built-in data types in C++ are predefined types that are fundamental for storing
 
 ---
 
-# Q. What is the Difference Between `float`, `double`, and `long double` Literals?
+## Q. What is the Difference Between `float`, `double`, and `long double` Literals?
 
 **`float`**:
 
@@ -481,7 +488,7 @@ Control structures in C++ manage the flow of execution within a program. They al
   } while (condition);
   ```
 
-## **[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
 ---
 
@@ -903,6 +910,8 @@ int main(){
 
 **Function overloading** in C++ allows multiple functions to have the same name but different parameters. These functions can differ in the number of parameters or their types. This enables functions to perform similar tasks with different types or amounts of input.
 
+When there are multiple functions with the same name but different parameters, then the functions are said to be overloaded, hence this is known as Function Overloading. Functions can be overloaded by changing the number of arguments or/and changing the type of arguments.
+
 ```cpp
 // Function to add a float and an integer
 int sum(float a, int b){
@@ -925,6 +934,238 @@ int main(){
     cout << "Sum of three integers: " << sum(y, z, 5) << endl;
 }
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. What is the `new` keyword/operator in C++ and what is its purpose and benefits?
+
+The `new` keyword in C++ is used for **dynamically allocating memory** on the **heap** at runtime. It allows creating variables, objects, and arrays when their size is not known at compile time.
+
+### Purpose
+- **Allocates memory on the heap** instead of the stack.
+- Returns a pointer to the allocated memory.
+- Used for creating objects dynamically, giving more control over memory.
+
+### Benefits
+**Dynamic Memory Allocation** – Allows flexible memory management at runtime.
+**Efficient Resource Utilization** – Allocates memory only when needed.
+**Supports Object-Oriented Programming** – Enables dynamic object creation.
+**Array Allocation** – Supports allocating arrays dynamically.
+
+```cpp
+int main() {
+    // Allocating memory for a single integer
+    int* ptr = new int(10);
+    cout << "Value: " << *ptr << endl;
+
+    // Allocating memory for an array
+    int* arr = new int[5]{1, 2, 3, 4, 5};
+
+    cout << "Array elements: ";
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+
+    // Freeing the allocated memory
+    delete ptr;
+    delete[] arr;
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. What is the `delete` keyword/operator in C++ and what is its purpose and benefits?
+
+The `delete` keyword in C++ is used to **free dynamically allocated memory** that was allocated using the `new` keyword. It ensures that memory allocated on the **heap** is properly released and made available for reuse.
+
+### Purpose
+- **Releases memory allocated with `new`**, preventing memory leaks.
+- Returns the allocated memory back to the **operating system**.
+- Improves memory efficiency, ensuring the program doesn't consume excessive resources.
+
+### Benefits
+**Prevents Memory Leaks** – Ensures memory allocated using `new` is properly deallocated.
+**Efficient Memory Management** – Helps manage heap memory efficiently, especially for large objects and arrays.
+**Avoids Unnecessary Memory Consumption** – Frees up memory for reuse.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Dynamically allocate an array of 3 integers
+    int* arr = new int[3];
+
+    arr[0] = 10;
+    arr[1] = 20;
+    arr[2] = 30;
+
+    cout << "Before delete: " << arr[0] << ", " << arr[1] << ", " << arr[2] << endl;
+
+    // Free the allocated memory
+    delete[] arr;
+
+    // After deletion, accessing the array leads to undefined behavior
+    cout << "After delete (undefined behavior): " << arr[0] << endl;
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. What is OOP?
+
+- OOP stands for Object-Oriented Programming.
+- It's a **programming paradigm** or way of writing code that uses "objects" to represent real-world things or concepts.
+- Each object can have its own data and functions (called methods) that work with that data.
+- It is easier to relate real world entities to the OOP.
+
+### 🔑 Key Features (Pillars of OOP)
+1. **Encapsulation** – Restricts direct access to object data, ensuring security.
+2. **Abstraction** – Hides complex details, exposing only essential features.
+3. **Inheritance** – Allows a class to reuse properties and behavior of another class.
+4. **Polymorphism** – Enables objects to be treated as instances of a common parent class.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. Why OOP? Purpose of Implementing OOP?
+
+OOP provides several benefits that make software development efficient and maintainable:
+
+- **Modularity** – Breaks programs into smaller, manageable parts.
+- **Code Reusability** – Inheritance reduces code duplication.
+- **Scalability** – Efficiently builds and extends large systems.
+- **Maintainability** – Modular structure simplifies debugging and updates.
+- **Real-world Modeling** – Represents real-world entities as objects.
+- **Parallel Development** – Teams can work on different objects independently.
+- **Data Security** – Encapsulation restricts unnecessary access to data.
+
+**💡 OOP helps write **organized, reusable, and maintainable code**, making it a preferred choice for large-scale software development. 🚀**
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. Why is OOP so popular?
+
+OOPs, programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well.
+
+### **Key Reasons for OOP's Popularity**
+- **Modularity** – Breaks programs into smaller, manageable parts.
+- **Code Reusability** – **Inheritance** reduces duplication and promotes efficiency.
+- **Scalability** – Easily extends and adapts to growing software needs.
+- **Maintainability** – Modular structure simplifies debugging and updates.
+- **Real-world Modeling** – Represents real-world entities as objects.
+- **Parallel Development** – Teams can work on different modules independently.
+- **Data Security** – **Encapsulation** restricts unauthorized access.
+
+### **Not only that, the main pillar of OOPs**
+1. **Encapsulation** – Binds data and methods together, restricting direct access.
+2. **Abstraction** – Hides unnecessary details, exposing only essential features.
+3. **Inheritance** – Enables reusability by deriving new classes from existing ones.
+4. **Polymorphism** – Allows one interface, multiple implementations for flexibility.
+
+Makes it easy for programmers to solve complex scenarios. As a result of these, OOPs is so popular.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. Pros and Cons of Object-Oriented Programming (OOP)
+
+| **Pros** | **Cons** |
+|----------|---------|
+| **Modularity** – Breaks programs into smaller, manageable parts. | **Requires Skilled Programmers** – Developers need a strong understanding of objects and OOP concepts. |
+| **Code Reusability** – Inheritance allows efficient reuse of existing code, reducing redundancy. | **Not Suitable for All Problems** – OOP might not be the best choice for certain small-scale or simple problems. |
+| **Scalability** – Easily extendable for larger projects and adaptable to changing requirements. | **Larger Codebase** – Programs tend to be lengthier than procedural programming approaches. |
+| **Better Maintainability** – Organized code structure makes debugging and updates easier. | **More Memory Consumption** – Object creation and dynamic features may lead to higher memory usage. |
+| **Data Security** – Encapsulation restricts unauthorized access, ensuring better data protection. | **More Planning Required** – The design phase is complex and requires proper planning before implementation. |
+| **Real-world Modeling** – Represents real-world entities effectively, making software design intuitive. | **Slower Execution Speed** – Due to abstraction layers, OOP can be slightly slower than procedural programming. |
+| **Parallel Development** – Different modules can be worked on independently, improving team collaboration. | **Documentation Dependency** – Understanding OOP code without proper documentation can be difficult. |
+| **Easy to Modify & Extend** – Polymorphism allows modifying or extending existing functionalities without altering the entire code. | **Longer Development Time** – Designing classes, relationships, and interactions requires more effort upfront. |
+
+**Additional Advantages of OOP:**
+- Follows a **bottom-up approach**, making code more structured.
+- **Encapsulation** avoids unnecessary data exposure and enhances security.
+- OOP **forces extensive design planning**, leading to better architecture and fewer flaws.
+- **Breaks down complex problems** into manageable chunks.
+- **Enhances productivity** by minimizing complexity and allowing easy redesigns without affecting other functionalities.
+- Provides **efficient modeling of real-world entities**, making programming more intuitive.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. Difference between Object-Oriented Programming vs Structural Programming
+
+| **Object-Oriented Programming (OOP)**                          | **Structural Programming**                                                                  |
+|---------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Follows a bottom-up approach** – Development starts with objects and their interactions. | **Follows a top-down approach** – Development starts with defining functions and procedures. |
+| **Supports data hiding** – Uses encapsulation to restrict direct access to data. | **Does not support data hiding** – Data is freely accessible within the program. |
+| **Best suited for complex and large-scale applications.** | **Best suited for moderate or small-scale applications.** |
+| **Code reusability** – Inheritance and polymorphism reduce redundancy. | **Limited code reusability** – Functions can be reused, but there is no built-in inheritance. |
+| **Based on objects and classes** – Emphasizes real-world modeling. | **Based on procedures and functions** – Focuses on breaking a problem into smaller tasks. |
+| **Provides better security** – Data is controlled through access modifiers. | **Less secure** – Data is shared across functions, increasing exposure. |
+| **Higher abstraction and flexibility** – Uses encapsulation, polymorphism, and abstraction for better control. | **Less abstraction and flexibility** – Code organization is more rigid and procedural. |
+| **Focuses on data and behavior (methods).** | **Focuses on process and step-by-step execution.** |
+
+- **OOP** is ideal for complex, scalable applications with reusable components and better security.
+- **Structural Programming** is suitable for simpler applications that require a straightforward, procedural approach.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)
+
+| **Procedure-Oriented Programming (POP)** | **Object-Oriented Programming (OOP)** |
+|------------------------------------------|------------------------------------------|
+| Centers around functions or procedures. | Centers around objects that bundle data and methods. |
+| Data is often global and less secure. | Data is encapsulated within objects, providing better security. |
+| Programs are structured as a sequence of steps or procedures. | Programs are structured around objects and classes. |
+| Limited reusability of code due to a lack of modularity and encapsulation. | Promotes reusability through mechanisms like inheritance and polymorphism. |
+| Less suitable for complex applications. | More suitable for complex applications. |
+| Focuses on function calls. | Focuses on message passing between objects. |
+
+**Limitations of OOP:**
+- Programs written using OOP tend to be larger than those using procedural programming.
+- Requires significant planning and pre-work before implementation.
+- Without proper documentation, OOP code can be challenging to understand.
+- Object-oriented programs may consume more memory due to dynamic features.
+- Not ideal for small, simple problems.
+- Development may take longer due to class and object structuring.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## Q. What do you understand by pure object-oriented language?
+
+A programming language is called a **pure object-oriented language** if it treats everything inside the program as an object. Unlike hybrid OOP languages, pure OOP languages do not support primitive data types (e.g., integers, floats, characters) outside the object model.
+
+A pure OOP language must satisfy the following properties:
+
+- **Encapsulation** – Data hiding through access modifiers.
+- **Inheritance** – Ability to derive new classes from existing ones.
+- **Polymorphism** – Same interface, different implementations.
+- **Abstraction** – Hiding implementation details and exposing only necessary functionalities.
+- **All Predefined Types Are Objects** – No primitive data types exist outside objects.
+- **All User-Defined Types Are Objects** – Every custom type must be an object.
+- **All Operations Are Performed Through Methods** – Direct access to variables is restricted; all interactions happen through object methods.
+
+### Examples of Pure OOP Languages
+- **Smalltalk**
+- **Eiffel**
+- **Ruby**
+
+Languages like **Java, C++, Python, and C#** are not purely object-oriented because they allow primitive data types like `int`, `char`, and `float` outside the object model.
 
 **[⬆ Back to Top](#table-of-contents)**
 
