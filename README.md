@@ -31,30 +31,41 @@
 | 25  | [What Does it Mean by Inline Functions, Default Arguments, & Constant Arguments in C++?](#what-does-it-mean-by-inline-functions-default-arguments--constant-arguments-in-c) |
 | 26  | [Recursion and Recursive Function in C++?](#recursion-and-recursive-function-in-c)                                                                                          |
 | 27  | [What is Function Overloading?](#what-is-function-overloading)                                                                                                              |
-| 28   | [What is the `new` keyword/operator in C++ and its purpose and benefits?](#what-is-the-new-keywordoperator-in-c-and-its-purpose-and-benefits) |
-| 29   | [What is the `delete` keyword/operator in C++ and its purpose and benefits?](#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
-| 30   | [What is OOP?](#what-is-oop) |
-| 31   | [Why OOP? Purpose of Implementing OOP?](#why-oop-purpose-of-implementing-oop) |
-| 32   | [Why is OOP so popular?](#why-is-oop-so-popular) |
-| 33   | [Pros and Cons of Object-Oriented Programming (OOP)](#pros-and-cons-of-object-oriented-programming-oop) |
-| 34   | [Difference between Object-Oriented Programming vs Structural Programming](#difference-between-object-oriented-programming-vs-structural-programming) |
-| 35   | [Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)](#difference-between-procedure-oriented-programming-pop-and-object-oriented-programming-oop) |
-| 36   | [What do you understand by a pure object-oriented language?](#what-do-you-understand-by-a-pure-object-oriented-language) |
-| 37   | [What is Struct?](#what-is-struct) |
-| 38   | [What is a Class and Why Do We Need It in OOP?](#what-is-a-class-and-why-do-we-need-it-in-oop) |
-| 39   | [Why Use a Class Instead of a Struct?](#why-use-a-class-instead-of-a-struct) |
-| 40   | [Similarities Between Class and Struct](#similarities-between-class-and-struct) |
-| 41   | [Difference Between Class and Struct](#difference-between-class-and-struct) |
-| 42   | [Difference Between Class and Struct](#difference-between-class-and-struct) |
-| 43   | [What are Class Attributes & Methods in OOP?](#what-are-class-attributes-methods-in-oop) |
-| 44   | [How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?](#how-is-memory-allocated-for-variables-and-functions-in-a-c-class-and-how-does-this-differ-for-objects-of-the-class) |
-| 45   | [What are access specifiers in OOP?](#what-are-access-specifiers-in-oop) |
-| 46   | [What is Sealed Modifier??](#what-is-sealed-modifier) |
-
+(#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 28   | [What is OOP?](#what-is-oop) |
+| 29   | [Why OOP? Purpose of Implementing OOP?](#why-oop-purpose-of-implementing-oop) |
+| 30   | [Why is OOP so popular?](#why-is-oop-so-popular) |
+| 31   | [Pros and Cons of Object-Oriented Programming (OOP)](#pros-and-cons-of-object-oriented-programming-oop) |
+| 32   | [Difference between Object-Oriented Programming vs Structural Programming](#difference-between-object-oriented-programming-vs-structural-programming) |
+| 33   | [Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)](#difference-between-procedure-oriented-programming-pop-and-object-oriented-programming-oop) |
+| 34   | [What do you understand by a pure object-oriented language?](#what-do-you-understand-by-a-pure-object-oriented-language) |
+| 35   | [What is Struct?](#what-is-struct) |
+| 36   | [What is a Class and Why Do We Need It in OOP?](#what-is-a-class-and-why-do-we-need-it-in-oop) |
+| 37   | [Why Use a Class Instead of a Struct?](#why-use-a-class-instead-of-a-struct) |
+| 38   | [Similarities Between Class and Struct](#similarities-between-class-and-struct) |
+| 39   | [Difference Between Class and Struct](#difference-between-class-and-struct) |
+| 40   | [What is Object and Why Do We Need It in OOP?](#what-is-a-object-and-why-do-we-need-it-in-oop) |
+| 41   | [What are Class Attributes & Methods in OOP?](#what-are-class-attributes-methods-in-oop) |
+| 42   | [How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?](#how-is-memory-allocated-for-variables-and-functions-in-a-c-class-and-how-does-this-differ-for-objects-of-the-class) |
+| 43   | [What are access specifiers in OOP?](#what-are-access-specifiers-in-oop) |
+| 44   | [What is Sealed Modifier?](#what-is-sealed-modifier) |
+| 45   | [What is the `new` keyword/operator in C++ and its purpose and benefits?](#what-is-the-new-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 46   | [What is the `delete` keyword/operator in C++ and its purpose and benefits?](#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 47   | [What does it mean by Pointer to objects in C++ and what is its purpose and benefit?](#what-does-it-mean-by-pointer-to-objects-in-c-and-what-is-its-purpose-and-benefit) |
+| 48   | [What are friend functions and friend classes in C++? How are they used?](#what-are-friend-functions-and-friend-classes-in-c-how-are-they-used) |
+| 49   | [What is the arrow (->) operator and . operator in C++, and what is their purpose and benefits with classes and objects?](#what-is-the-arrow---operator-and--operator-in-c-and-what-is-their-purpose-and-benefits-with-classes-and-objects) |
+| 50   | [What does it mean by Array of Objects in C++?](#what-does-it-mean-by-array-of-objects-in-c) |
+| 51   | [How can you use arrays of objects and pass objects as function arguments in C++? Provide examples.](#how-can-you-use-arrays-of-objects-and-pass-objects-as-function-arguments-in-c-provide-examples) |
+| 52   | [What are the types of variables in OOP?](#what-are-the-types-of-variables-in-oop) |
+| 53   | [What is `this` pointer in OOP and its purpose?](#what-is-this-pointer-in-oop-and-its-purpose) |
+| 54   | [What are Member Functions, Its Purpose and Nesting of Member Function in OOP?](#what-are-member-functions-its-purpose-and-nesting-of-member-function-in-oop)
+| 55   | [Explain the concept of `static` in OOP?](#explain-the-concept-of-static-in-oop) |
+| 56   | [What are static data members, member functions, variables, and functions?](#what-are-static-data-members-member-functions-variables-and-methods) |
+| 57   | [What is `const` in OOP and how is it used?](#what-is-const-in-oop-and-how-is-it-used) |
 
 ---
 
-### Q. What is Programming & Why C++?
+### What is Programming & Why C++?
 
 **Programming**
 
@@ -71,7 +82,7 @@ C++ was created by Bjarne Stroustrup in 1979 and is valued for:
 
 ---
 
-### Q. What is a Programming Paradigm?
+### What is a Programming Paradigm?
 
 A **programming paradigm** is a style or approach to programming. Some common paradigms are:
 
@@ -119,7 +130,7 @@ A **programming paradigm** is a style or approach to programming. Some common pa
 
 ---
 
-### Q. What is the Difference Between C++ and C?
+### What is the Difference Between C++ and C?
 
 - **C++** is an extension of **C**, providing additional features like **Object-Oriented Programming (OOP)**, **overloading**, and **templates**.
 - **C** is procedural, while **C++** supports both procedural and object-oriented programming.
@@ -128,7 +139,7 @@ A **programming paradigm** is a style or approach to programming. Some common pa
 
 ---
 
-### Q. Files Structure in C++
+### Files Structure in C++
 
 In C++, the organization of files is crucial for managing and structuring code effectively:
 
@@ -148,7 +159,7 @@ Overall, a typical C++ program consists of:
 
 ---
 
-### Q. What do Low Level and High Level Mean?
+### What do Low Level and High Level Mean?
 
 **High Level**: Imagine using Google to search for something. You don’t need to understand how Google works behind the scenes, you just type your query and get results easily. High-level programming languages are like this – they’re designed to be easy to use and understand, without worrying about how everything works under the hood.
 
@@ -160,7 +171,7 @@ In short, **high-level** is easy to use and understand, while **low-level** give
 
 ---
 
-### Q. What are Variables and Comments?
+### What are Variables and Comments?
 
 **Variables**: Think of variables as labeled boxes where you can store information. If you have a box labeled `age`, you can put a number in it to represent someone's age. Variables can hold different types of data, like numbers (`int`), decimal values (`float`), or characters (`char`).
 
@@ -170,7 +181,7 @@ In short, **high-level** is easy to use and understand, while **low-level** give
 
 ---
 
-### Q. Variable Scope
+### Variable Scope
 
 The scope of a variable defines where in the code you can use it. You can think of it like this: if you’re in a specific room, you can only use the items in that room. Similarly, a variable's scope determines where it can be accessed in your program.
 
@@ -182,7 +193,7 @@ The scope of a variable defines where in the code you can use it. You can think 
 
 ---
 
-### Q. What are Data Types?
+### What are Data Types?
 
 Data types specify the kind of data a variable can hold. They tell the program what type of information to store and how to handle it.
 
@@ -212,7 +223,7 @@ In C++, data types are divided into three main groups:
 
 ---
 
-### Q. What are Reserved Keywords in C++?
+### What are Reserved Keywords in C++?
 
 Reserved keywords are special words that C++ uses for specific purposes. They are part of the language's rules and help the program do things like defining variables, controlling the flow, and more.
 
@@ -231,7 +242,7 @@ You **cannot** use reserved keywords as names for your variables, functions, or 
 
 ---
 
-### Q. What are Operators and Their Different Types in C++?
+### What are Operators and Their Different Types in C++?
 
 Operators are symbols in C++ that perform operations on variables and values, such as calculations, comparisons, and logical operations. Below are the different types of operators:
 
@@ -277,7 +288,7 @@ Operators are symbols in C++ that perform operations on variables and values, su
 
 ---
 
-### Q. What are Built-in Data Types in C++?
+### What are Built-in Data Types in C++?
 
 Built-in data types in C++ are predefined types that are fundamental for storing data in a program. These data types are part of the C++ language and are used to store simple types of data.
 
@@ -291,7 +302,7 @@ Built-in data types in C++ are predefined types that are fundamental for storing
 
 ---
 
-### Q. What is the Difference Between `float`, `double`, and `long double` Literals?
+### What is the Difference Between `float`, `double`, and `long double` Literals?
 
 **`float`**:
 
@@ -318,7 +329,7 @@ Built-in data types in C++ are predefined types that are fundamental for storing
 
 ---
 
-### Q. What is Typecasting in C++?
+### What is Typecasting in C++?
 
 Typecasting is the process of converting a variable from one data type to another. This is useful when you need to perform operations that require specific data types or when you want to ensure compatibility between different data types.
 
@@ -333,7 +344,7 @@ Typecasting helps in performing precise operations, especially when dealing with
 
 ---
 
-### Q. How Do You Use the Scope Resolution Operator in C++?
+### How Do You Use the Scope Resolution Operator in C++?
 
 The scope resolution operator `::` is used to access global variables or functions from within a function or class where there might be local variables or functions with the same name. It helps in distinguishing between different scopes.
 
@@ -362,7 +373,7 @@ int main() {
 
 ---
 
-### Q. What are constants, manipulators, and operator precedence in C++?
+### What are constants, manipulators, and operator precedence in C++?
 
 - **Constants**
   Constants are unchangeable; once a constant variable is initialized in a program, its value cannot be changed afterwards.
@@ -410,7 +421,7 @@ int main() {
 
 ---
 
-### Q. What are Control Structures in C++?
+### What are Control Structures in C++?
 
 Control structures in C++ manage the flow of execution within a program. They allow you to make decisions, repeat actions, and control the execution path based on certain conditions.
 
@@ -467,7 +478,7 @@ Control structures in C++ manage the flow of execution within a program. They al
 
 ---
 
-### Q. What are the differences between for, while, and do-while loops in C++?
+### What are the differences between for, while, and do-while loops in C++?
 
 1. For Loop
 
@@ -503,7 +514,7 @@ Control structures in C++ manage the flow of execution within a program. They al
 
 ---
 
-### Q. What is the difference between the break and continue statements in C++?
+### What is the difference between the break and continue statements in C++?
 
 1. Break Statement
 
@@ -535,7 +546,7 @@ Control structures in C++ manage the flow of execution within a program. They al
 
 ---
 
-### Q. What is a pointer and how is it used?
+### What is a pointer and how is it used?
 
 A pointer is a data type that holds the address of another data type. The `&` operator is called the "address of" operator, and the `*` operator is called the "dereference" operator.
 
@@ -609,7 +620,7 @@ cout << "Value of a through ptr2: " << **ptr2 << endl; // Dereferencing ptr2 twi
 
 ---
 
-### Q. What is an array, and how are arrays and pointers related in C++?
+### What is an array, and how are arrays and pointers related in C++?
 
 An **array** is a collection of similar items (like numbers) stored next to each other in memory.
 
@@ -644,7 +655,7 @@ cout << "The value of *(p+3) is " << *(p+3) << endl;
 
 ---
 
-### Q. What are Struct, Union, and Enums in C++?
+### What are Struct, Union, and Enums in C++?
 
 1. Struct
 
@@ -707,7 +718,7 @@ int main() {
 
 ---
 
-### Q. What are Function and Function Prototypes in C++?
+### What are Function and Function Prototypes in C++?
 
 1. Function
 
@@ -742,7 +753,7 @@ int sum(int, int);    // Acceptable but less descriptive
 
 ---
 
-### Q. What are Actual and Formal Parameters?
+### What are Actual and Formal Parameters?
 
 1. Formal Parameters
 
@@ -769,7 +780,7 @@ int main() {
 
 ---
 
-### Q. What does it mean by Call by Value, Call by Reference, & Call by Pointer in C++?
+### What does it mean by Call by Value, Call by Reference, & Call by Pointer in C++?
 
 1. Call by Value
 
@@ -841,7 +852,7 @@ int main(){
 
 ---
 
-### Q. What does it mean by Inline Functions, Default Arguments, & Constant Arguments in C++?
+### What does it mean by Inline Functions, Default Arguments, & Constant Arguments in C++?
 
 1. Inline Functions
 
@@ -895,7 +906,7 @@ int main(){
 
 ---
 
-### Q. Recursion and Recursive Function in C++?
+### Recursion and Recursive Function in C++?
 
 **Recursion** occurs when a function calls itself, either directly or indirectly. A function that performs this self-calling is known as a **recursive function**. Recursive functions typically have two main components:
 
@@ -917,7 +928,7 @@ int main(){
 }
 ```
 
-### Q. What is function overloading?
+### What is function overloading?
 
 **Function overloading** in C++ allows multiple functions to have the same name but different parameters. These functions can differ in the number of parameters or their types. This enables functions to perform similar tasks with different types or amounts of input.
 
@@ -950,86 +961,8 @@ int main(){
 
 ---
 
-### Q. What is the `new` keyword/operator in C++ and what is its purpose and benefits?
 
-The `new` keyword in C++ is used for **dynamically allocating memory** on the **heap** at runtime. It allows creating variables, objects, and arrays when their size is not known at compile time.
-
-#### Purpose
-- **Allocates memory on the heap** instead of the stack.
-- Returns a pointer to the allocated memory.
-- Used for creating objects dynamically, giving more control over memory.
-
-#### Benefits
-**Dynamic Memory Allocation** – Allows flexible memory management at runtime.
-**Efficient Resource Utilization** – Allocates memory only when needed.
-**Supports Object-Oriented Programming** – Enables dynamic object creation.
-**Array Allocation** – Supports allocating arrays dynamically.
-
-```cpp
-int main() {
-    // Allocating memory for a single integer
-    int* ptr = new int(10);
-    cout << "Value: " << *ptr << endl;
-
-    // Allocating memory for an array
-    int* arr = new int[5]{1, 2, 3, 4, 5};
-
-    cout << "Array elements: ";
-    for (int i = 0; i < 5; i++) {
-        cout << arr[i] << " ";
-    }
-
-    // Freeing the allocated memory
-    delete ptr;
-    delete[] arr;
-}
-```
-
-**[⬆ Back to Top](#table-of-contents)**
-
----
-
-### Q. What is the `delete` keyword/operator in C++ and what is its purpose and benefits?
-
-The `delete` keyword in C++ is used to **free dynamically allocated memory** that was allocated using the `new` keyword. It ensures that memory allocated on the **heap** is properly released and made available for reuse.
-
-#### Purpose
-- **Releases memory allocated with `new`**, preventing memory leaks.
-- Returns the allocated memory back to the **operating system**.
-- Improves memory efficiency, ensuring the program doesn't consume excessive resources.
-
-#### Benefits
-**Prevents Memory Leaks** – Ensures memory allocated using `new` is properly deallocated.
-**Efficient Memory Management** – Helps manage heap memory efficiently, especially for large objects and arrays.
-**Avoids Unnecessary Memory Consumption** – Frees up memory for reuse.
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    // Dynamically allocate an array of 3 integers
-    int* arr = new int[3];
-
-    arr[0] = 10;
-    arr[1] = 20;
-    arr[2] = 30;
-
-    cout << "Before delete: " << arr[0] << ", " << arr[1] << ", " << arr[2] << endl;
-
-    // Free the allocated memory
-    delete[] arr;
-
-    // After deletion, accessing the array leads to undefined behavior
-    cout << "After delete (undefined behavior): " << arr[0] << endl;
-}
-```
-
-**[⬆ Back to Top](#table-of-contents)**
-
----
-
-### Q. What is OOP?
+### What is OOP?
 
 - OOP stands for Object-Oriented Programming.
 - It's a **programming paradigm** or way of writing code that uses "objects" to represent real-world things or concepts.
@@ -1046,7 +979,7 @@ int main() {
 
 ---
 
-### Q. Why OOP? Purpose of Implementing OOP?
+### Why OOP? Purpose of Implementing OOP?
 
 OOP provides several benefits that make software development efficient and maintainable:
 
@@ -1064,7 +997,7 @@ OOP provides several benefits that make software development efficient and maint
 
 ---
 
-### Q. Why is OOP so popular?
+### Why is OOP so popular?
 
 OOPs, programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well.
 
@@ -1089,7 +1022,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-### Q. Pros and Cons of Object-Oriented Programming (OOP)
+### Pros and Cons of Object-Oriented Programming (OOP)
 
 | **Pros** | **Cons** |
 |----------|---------|
@@ -1114,7 +1047,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-### Q. Difference between Object-Oriented Programming vs Structural Programming
+### Difference between Object-Oriented Programming vs Structural Programming
 
 | **Object-Oriented Programming (OOP)**                          | **Structural Programming**                                                                  |
 |---------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -1134,7 +1067,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-### Q. Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)
+### Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)
 
 | **Procedure-Oriented Programming (POP)** | **Object-Oriented Programming (OOP)** |
 |------------------------------------------|------------------------------------------|
@@ -1157,7 +1090,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-### Q. What do you understand by pure object-oriented language?
+### What do you understand by pure object-oriented language?
 
 A programming language is called a **pure object-oriented language** if it treats everything inside the program as an object. Unlike hybrid OOP languages, pure OOP languages do not support primitive data types (e.g., integers, floats, characters) outside the object model.
 
@@ -1182,7 +1115,7 @@ Languages like **Java, C++, Python, and C#** are not purely object-oriented beca
 
 ---
 
-### Q. What is Struct?
+### What is Struct?
 
 - A struct (structure) is a user-defined data type in C++ that groups related variables under a single name.
 - Structs are typically used for lightweight objects that hold data without requiring encapsulation or functionality.
@@ -1209,7 +1142,7 @@ int main() {
 
 ---
 
-### Q. What is a Class and Why Do We Need It in OOP?
+### What is a Class and Why Do We Need It in OOP?
 
 - Class is a building block of OOP.
 - It is a user defined data type.
@@ -1248,7 +1181,7 @@ int main() {
 
 ---
 
-### Q. Why Use a Class Instead of a Struct?
+### Why Use a Class Instead of a Struct?
 
 #### 1. **Access Control:**
    - In **classes**, members can be made `private` or `protected`, restricting access to only those within the class or its derived classes.
@@ -1298,7 +1231,7 @@ int main() {
 
 ---
 
-### Q. Similarities Between Class and Struct
+### Similarities Between Class and Struct
 
 - Both are used to group related data.
 - Both can contain member functions.
@@ -1308,7 +1241,7 @@ int main() {
 
 ---
 
-### Q. Difference Between Class and Struct
+### Difference Between Class and Struct
 
 | **Class** | **Struct** |
 |-----------|------------|
@@ -1336,7 +1269,51 @@ struct PersonStruct {
 
 ---
 
-### Q. What are Class Attributes & Methods in OOP?
+
+### What is a Object and Why Do We Need It in OOP?
+
+- An **object** is an instance of a class.
+- It represents real-world entities created from a blueprint (class) with properties (data members) and behaviors (member functions). Without objects, a class is just a blueprint and does not hold any actual data.
+
+- **Objects store data** → A class is just a template; objects bring it to life.
+- **Objects encapsulate behavior** → They allow actions to be performed using their methods.
+- **Objects enable modularity** → They allow reusability and efficient organization of code.
+
+- Think of a **class** as a **recipe** and an **object** as the actual **dish** made using that recipe. A recipe defines the ingredients and steps, but unless you cook it, the recipe itself is useless!
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// Class Definition
+class Car {
+public:
+    string brand;
+    int speed;
+
+    // Method to display car details
+    void showDetails() {
+        cout << "Brand: " << brand << ", Speed: " << speed << " km/h" << endl;
+    }
+};
+
+int main() {
+    Car myCar; // Creating an object of the Car class
+
+    // Assigning values to object properties
+    myCar.brand = "Toyota";
+    myCar.speed = 120;
+
+    // Calling the object's method
+    myCar.showDetails();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are Class Attributes & Methods in OOP?
 
 - **Attributes (or member variables)** represent the **state** of an object.
 - **Methods** are functions defined inside a class that represent the **behavior** of the object.
@@ -1364,7 +1341,7 @@ int main() {
 
 ---
 
-### Q. How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?
+### How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?
 
 - **For Variables:** When an object is created, memory is allocated for the object’s member variables. Each object has its own set of data members.
 - **For Functions:** Member functions are not duplicated for each object. They are stored once in memory and shared by all instances of the class.
@@ -1392,7 +1369,7 @@ int MyClass::count = 0;
 
 ---
 
-### Q. What are access specifiers in OOP?
+### What are access specifiers in OOP?
 
 Access specifiers control the visibility of members in a class:
 
@@ -1423,7 +1400,7 @@ int main() {
 
 ---
 
-### Q. What is Sealed Modifier?
+### What is Sealed Modifier?
 
 A **sealed class** or **sealed modifier** is used to prevent other classes from inheriting from it. In some languages like C# or Java, marking a class as sealed ensures that no class can derive from it.
 
@@ -1439,6 +1416,1005 @@ sealed class MyClass {
 ```
 
 - In languages like C++, the equivalent would be to simply avoid inheritance by not defining any child classes, as C++ does not have a direct **sealed** keyword.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is the `new` keyword/operator in C++ and what is its purpose and benefits?
+
+The `new` keyword in C++ is used for **dynamically allocating memory** on the **heap** at runtime. It allows creating variables, objects, and arrays when their size is not known at compile time.
+
+#### Purpose
+- **Allocates memory on the heap** instead of the stack.
+- Returns a pointer to the allocated memory.
+- Used for creating objects dynamically, giving more control over memory.
+
+#### Benefits
+**Dynamic Memory Allocation** – Allows flexible memory management at runtime.
+**Efficient Resource Utilization** – Allocates memory only when needed.
+**Supports Object-Oriented Programming** – Enables dynamic object creation.
+**Array Allocation** – Supports allocating arrays dynamically.
+
+```cpp
+int main() {
+    // Allocating memory for a single integer
+    int* ptr = new int(10);
+    cout << "Value: " << *ptr << endl;
+
+    // Allocating memory for an array
+    int* arr = new int[5]{1, 2, 3, 4, 5};
+
+    cout << "Array elements: ";
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+
+    // Freeing the allocated memory
+    delete ptr;
+    delete[] arr;
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is the `delete` keyword/operator in C++ and what is its purpose and benefits?
+
+The `delete` keyword in C++ is used to **free dynamically allocated memory** that was allocated using the `new` keyword. It ensures that memory allocated on the **heap** is properly released and made available for reuse.
+
+#### Purpose
+- **Releases memory allocated with `new`**, preventing memory leaks.
+- Returns the allocated memory back to the **operating system**.
+- Improves memory efficiency, ensuring the program doesn't consume excessive resources.
+
+#### Benefits
+**Prevents Memory Leaks** – Ensures memory allocated using `new` is properly deallocated.
+**Efficient Memory Management** – Helps manage heap memory efficiently, especially for large objects and arrays.
+**Avoids Unnecessary Memory Consumption** – Frees up memory for reuse.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Dynamically allocate an array of 3 integers
+    int* arr = new int[3];
+
+    arr[0] = 10;
+    arr[1] = 20;
+    arr[2] = 30;
+
+    cout << "Before delete: " << arr[0] << ", " << arr[1] << ", " << arr[2] << endl;
+
+    // Free the allocated memory
+    delete[] arr;
+
+    // After deletion, accessing the array leads to undefined behavior
+    cout << "After delete (undefined behavior): " << arr[0] << endl;
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What does it mean by Pointer to objects in C++ and what is its purpose and benefit?
+
+#### What is a Pointer to an Object?
+In C++, **pointers** are used to store addresses of both **primitive data types** (like `int`, `float`, `double`) and **objects of user-defined classes**.
+A **pointer to an object** is a special pointer that stores the **memory address** of an object of a class type.
+
+#### Purpose of Pointers to Objects
+Pointers to objects are widely used in C++ for the following reasons:
+
+- **Dynamic Object Creation**:
+  - Objects can be created dynamically at runtime using the `new` keyword.
+  - This allows more flexibility and efficient memory management.
+
+- **Indirect Access**:
+  - Objects can be accessed and manipulated indirectly through pointers.
+  - Useful when working with dynamically allocated objects or when passing objects to functions.
+
+- **Efficient Memory Management**:
+  - Reduces unnecessary memory allocation and deallocation.
+  - Helps in optimizing memory usage in large-scale applications.
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex {
+    int real, imaginary;
+
+public:
+    void setData(int a, int b) {
+        real = a;
+        imaginary = b;
+    }
+
+    void getData() {
+        cout << "The real part is " << real << endl;
+        cout << "The imaginary part is " << imaginary << endl;
+    }
+};
+
+int main() {
+    Complex *ptr = new Complex;  // Dynamically creating an object
+
+    ptr->setData(1, 54);  // Using -> operator to access members
+    ptr->getData();
+
+    delete ptr;  // Free allocated memory
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are friend functions and friend classes in C++? How are they used?
+
+In C++, **friend functions** and **friend classes** allow access to private and protected members of a class, even though they are not part of the class.
+
+- **Friend Function** → A non-member function that has access to private/protected data of a class.
+- **Friend Class** → A class that has access to another class's private/protected members.
+
+#### **Friend Functions**
+
+A **friend function** is a function that is **not a member** of a class but can still access the class’s **private and protected** members.
+
+#### Properties:
+- **Not a Member** → Defined outside the class.
+- **Declared Inside the Class** → Declared using the `friend` keyword inside the class.
+- **Can Access Private Members** → Can directly access private/protected members of the class.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Box {
+private:
+    int length;
+
+public:
+    Box() : length(0) {}  // Constructor initializes length to 0
+    void setLength(int l) { length = l; }
+
+    // Friend function declaration
+    friend void printLength(const Box& b);
+};
+
+// Friend function definition
+void printLength(const Box& b) {
+    cout << "Length of the box is: " << b.length << endl;
+}
+
+int main() {
+    Box b;
+    b.setLength(10);
+    printLength(b); // Calling friend function
+}
+```
+
+#### **Friend Classes** in C++**
+
+A **friend class** is a class that has **full access** to the private and protected members of another class.
+
+#### Properties:
+- **Grants Access to Another Class** → A class can access another class's private/protected members.
+- **Defined Using `friend` Keyword** → The target class is declared as a `friend` inside the first class.
+- **Useful for Closely Related Classes** → Used when two classes need to work together and share private data.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class ClassB; // Forward declaration
+
+class ClassA {
+public:
+    void showClassBDetails(const ClassB& b); // Function accessing ClassB's private members
+};
+
+class ClassB {
+private:
+    int secret;
+
+public:
+    ClassB() : secret(42) {}  // Constructor initializes secret
+
+    // Declaring ClassA as a friend
+    friend class ClassA;
+};
+
+// Member function of ClassA accessing ClassB’s private member
+void ClassA::showClassBDetails(const ClassB& b) {
+    cout << "ClassB's secret is: " << b.secret << endl;
+}
+
+int main() {
+    ClassB b;
+    ClassA a;
+    a.showClassBDetails(b); // Accessing ClassB's private data
+}
+```
+
+##### When to Use Friend Functions & Friend Classes?
+
+| Feature      | Friend Function                                      | Friend Class                                      |
+|-------------|------------------------------------------------------|--------------------------------------------------|
+| **Access**   | Specific function                                    | Whole class                                      |
+| **Use Case** | Used for utility functions that operate on private data | Used when two classes need deep integration     |
+| **Example**  | A function that needs access to a class’s private data | A class that manages another class’s private members |
+
+
+**Friend Functions**: Grant a **single function** access to private data.
+**Friend Classes**: Grant an **entire class** access to another class’s private data.
+**Use with Caution!** 🚨 Overusing friend functions/classes can break **encapsulation**.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is the arrow (->) operator and . operator in C++, and what is their purpose and benefits with classes and objects?
+
+In C++, the **dot (`.`) operator** and **arrow (`->`) operator** are used to access **members (variables or functions)** of classes. They provide a way to interact with **class members** directly or through pointers.
+
+#### `.` (Dot Operator)
+- **Purpose**: Used to access members of an object **directly**.
+- **When to Use?** When you have an **object** (not a pointer).
+- **Benefits**: Simple and easy to read.
+
+#### `->` (Arrow Operator)
+- **Purpose**: Used to access members of an object **through a pointer**.
+- **When to Use?** When you have a **pointer to an object**.
+- **Benefits**: Allows working with dynamically allocated objects and **supports polymorphism**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex {
+    int real, imaginary;
+
+public:
+    void getData() {
+        cout << "The real part is " << real << endl;
+        cout << "The imaginary part is " << imaginary << endl;
+    }
+
+    void setData(int a, int b) {
+        real = a;
+        imaginary = b;
+    }
+};
+
+int main() {
+    Complex obj;
+
+    obj.setData(1, 54);  // Accessing members using the . operator
+    obj.getData();
+
+    Complex *ptr = new Complex;
+    ptr->setData(5, 10);  // Accessing members using the -> operator with a pointer
+    ptr->getData();
+
+    delete ptr;  // Free allocated memory
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What does it mean by Array of Objects in C++?
+
+An **array of objects** in C++ is an array where each element is an **instance of a class**. This allows storing multiple objects of the **same class type** in a **sequential manner** within a single array.
+
+- **Array of Objects**: Just like primitive data types, objects of a class can also be stored in an array.
+- **Purpose**:
+  - **Storage & Organization**: Helps in managing multiple instances of a class efficiently.
+  - **Efficient Access**: Enables **indexed** access to individual objects, making it easier to manipulate data.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class ShopItem {
+    int id;
+    float price;
+
+public:
+    void setData(int a, float b) {
+        id = a;
+        price = b;
+    }
+
+    void getData() {
+        cout << "Code of this item is " << id << endl;
+        cout << "Price of this item is " << price << endl;
+    }
+};
+
+int main() {
+    int size = 3;
+    ShopItem *ptr = new ShopItem[size];  // Creating an array of ShopItem objects dynamically
+
+    ShopItem *ptrTemp = ptr;  // Temporary pointer for iteration
+
+    int p;
+    float q;
+
+    for (int i = 0; i < size; i++) {
+        cout << "Enter Id and price of item " << i + 1 << endl;
+        cin >> p >> q;
+
+        ptr->setData(p, q);  // Setting data for each ShopItem object in the array
+        ptr++;  // Moving pointer to the next element in the array
+    }
+
+    for (int i = 0; i < size; i++) {
+        cout << "Item number: " << i + 1 << endl;
+        ptrTemp->getData();  // Getting data for each ShopItem object in the array
+        ptrTemp++;  // Moving temporary pointer to the next element in the array
+    }
+
+    delete[] ptr;  // Freeing dynamically allocated memory for the array
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### How can you use arrays of objects and pass objects as function arguments in C++? Provide examples.
+
+#### Arrays of Objects
+
+An **array of objects** is a collection of objects from the **same class**. Just like an array of basic data types, an **array of objects** allows multiple instances of a class to be stored **sequentially**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Employee {
+    int id;
+    int salary;
+
+public:
+    void setId() {
+        salary = 122;
+        cout << "Enter the id of employee: ";
+        cin >> id;
+    }
+
+    void getId() const {
+        cout << "The id of this employee is " << id << endl;
+    }
+};
+
+int main() {
+    Employee employees[4]; // Array of 4 Employee objects
+
+    for (int i = 0; i < 4; i++) {
+        employees[i].setId(); // Set ID for each employee
+        employees[i].getId(); // Display ID for each employee
+    }
+}
+```
+
+#### Passing Objects as Function Arguments in C++
+
+Objects in C++ can be passed to functions in **two ways**:
+
+1. **Pass by Value**: A copy of the object is made, meaning changes inside the function **won’t affect the original object**.
+2. **Pass by Reference**: The function receives a reference to the object, meaning it can **directly modify the original object**.
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex {
+    int a;
+    int b;
+
+public:
+    // Function to set values of a and b
+    void setData(int v1, int v2) {
+        a = v1;
+        b = v2;
+    }
+
+    // Function to set object data by summing two other objects
+    void setDataBySum(const Complex &o1, const Complex &o2) {
+        a = o1.a + o2.a;
+        b = o1.b + o2.b;
+    }
+
+    // Function to print complex number
+    void printNumber() const {
+        cout << "Your complex number is " << a << " + " << b << "i" << endl;
+    }
+};
+
+int main() {
+    Complex c1, c2, c3;
+
+    c1.setData(1, 2);
+    c1.printNumber();
+
+    c2.setData(3, 4);
+    c2.printNumber();
+
+    // Passing objects as function arguments
+    c3.setDataBySum(c1, c2);
+    c3.printNumber();
+}
+```
+
+- **Pass by Value** creates a copy of the object, meaning changes inside the function do not affect the original object.
+- **Pass by Reference** (const &) avoids unnecessary copies and allows direct modification.
+- **Function Overloading** can be used to perform different operations on objects.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are the types of variables in OOP?
+
+In **OOP (Object-Oriented Programming)**, variables are categorized into different types based on **scope, lifetime, and memory location**.
+
+The main types of variables in **OOP** are:
+1. **Instance Variable**
+2. **Static Variable**
+3. **Local Variable**
+4. **Reference Variable**
+
+
+#### **1️. Instance Variable**
+- It is an **object-level** variable.
+- Declared inside a class but **outside methods, blocks, and constructors**.
+- Created when an object is instantiated (`new` keyword).
+- Can be accessed using **object reference**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Employee {
+public:
+    int id;  // Instance Variable
+
+    void setId(int empId) {
+        id = empId; // Assign value to instance variable
+    }
+
+    void display() {
+        cout << "Employee ID: " << id << endl;
+    }
+};
+
+int main() {
+    Employee e1, e2;  // Creating objects
+    e1.setId(101);
+    e2.setId(102);
+
+    e1.display();
+    e2.display();
+}
+```
+
+#### **2. Static Variable**
+
+- It is a **class-level** variable shared among all objects.
+- Declared using the `static` keyword.
+- **Single memory allocation** for all objects.
+- Can be accessed using **ClassName::variable_name**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Counter {
+public:
+    static int count; // Static Variable
+
+    Counter() {
+        count++; // Increment count for each object
+    }
+
+    static void displayCount() {
+        cout << "Total Objects Created: " << count << endl;
+    }
+};
+
+// Initializing static variable
+int Counter::count = 0;
+
+int main() {
+    Counter c1, c2, c3;  // Creating three objects
+
+    Counter::displayCount(); // Accessing static variable
+}
+```
+
+**Explanation:** `count` is a **static variable**, shared among all objects of the `Counter` class.
+
+#### **3. Local Variable**
+
+- It is a **method-level** variable.
+- Declared **inside a function, block, or constructor**.
+- **Only accessible within that function or block**.
+- Must be **initialized before use**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Demo {
+public:
+    void show() {
+        int localVar = 10; // Local Variable
+        cout << "Local Variable: " << localVar << endl;
+    }
+};
+
+int main() {
+    Demo obj;
+    obj.show();
+
+    // cout << localVar;  // ❌ Error: localVar is not accessible outside show()
+}
+```
+
+**Explanation:** `localVar` is a **local variable** inside `show()`, which means it **cannot be accessed outside** this function.
+
+#### **4. Reference Variable**
+
+- It is a **variable that points to an object**.
+- It stores the **memory address** of another variable or object.
+- Used for **efficient memory management** in OOP.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Student {
+public:
+    string name;
+};
+
+int main() {
+    Student s1;
+    s1.name = "Ahad";
+
+    Student &s2 = s1; // Reference Variable
+
+    cout << "Student 1 Name: " << s1.name << endl;
+    cout << "Student 2 (Reference) Name: " << s2.name << endl;
+
+    s2.name = "Ali";  // Changing via reference
+
+    cout << "Updated Student 1 Name: " << s1.name << endl; // Also changes
+}
+```
+
+**Explanation:** `s2` is a **reference variable** that refers to `s1`. Changing `s2` also modifies `s1` since they refer to the same memory location.
+
+---
+
+| Variable Type       | Scope          | Memory Location         | Access                                      |
+|--------------------|---------------|-------------------------|--------------------------------------------|
+| **Instance Variable** | **Object-level** | Heap Memory (inside object) | Accessed using `objectName.variableName` |
+| **Static Variable**   | **Class-level**  | Static Memory (shared) | Accessed using `ClassName::variableName` |
+| **Local Variable**    | **Method/block** | Stack Memory (temporary) | Accessed inside method only |
+| **Reference Variable** | **Alias to another variable** | Uses memory of original variable | Accessed like normal variable |
+
+
+Understanding different types of variables is essential in **Object-Oriented Programming (OOP)**.
+- Use **instance variables** when **each object needs its own data**.
+- Use **static variables** when **data needs to be shared among all objects**.
+- Use **local variables** for **temporary data** inside functions.
+- Use **reference variables** to create **aliases and manage memory efficiently**.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is `this` pointer in OOP and its purpose?
+
+- In **C++**, `this` is a **pointer** that represents the **current instance** of a class.
+- It is **implicitly passed** as a hidden argument to all **non-static** member function calls.
+
+- **Purpose**:
+    - **Identifying Object Context:** Helps distinguish between **local variables and instance variables** when they have the same name.
+    - **Accessing Object's Members:** Enables accessing **member variables and methods** of the current object within its own scope.
+    - **Returning References:** Can be used to return a **reference to the current object**, enabling **method chaining** and fluent interfaces.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class A {
+    int a;
+
+public:
+    void setData(int a) {
+        this->a = a;  // Using 'this' to access member variable 'a'
+    }
+
+    void getData() {
+        cout << "The value of a is " << a << endl;
+    }
+};
+
+int main() {
+    A obj;
+    obj.setData(5);
+    obj.getData();
+}
+```
+
+**Explanation:** The `this` pointer refers to the **current object** inside the class. It helps to differentiate between **local and instance variables**.
+
+| Scope          | Memory Location         | Access                                      |
+|--------------|-------------------------|--------------------------------------------|
+|**Current Object Context** | Stack Memory | Accessed inside non-static methods |
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are Member Functions, Its Purpose and Nesting of Member Function in OOP?
+
+#### **Member Functions in OOP**
+Member functions are **functions declared inside a class** that operate on its objects. They have access to **private and protected data members** of the class.
+
+#### Purpose:
+- **Encapsulation**: Helps bundle data and functions together.
+- **Code Reusability**: Provides modular and reusable code.
+- **Data Abstraction**: Controls data access.
+- **Object Manipulation**: Modifies object states.
+
+#### **Nesting of Member Functions**
+Nesting of member functions means **calling one member function inside another** within the same class.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Demo {
+    int num;
+
+public:
+    void input() {
+        cout << "Enter a number: ";
+        cin >> num;
+    }
+
+    void display() {
+        input();  // Calling input() inside display()
+        cout << "You entered: " << num << endl;
+    }
+};
+
+int main() {
+    Demo obj;
+    obj.display();  // Calling display() triggers input()
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Explain the concept of `static` in OOP?
+
+In Object-Oriented Programming (OOP), the `static` keyword is used to define **class-level** members that do not belong to individual objects. Instead, they are shared among all instances of the class.
+
+#### Features of `static` in OOP:
+- **Shared across objects**: A static member belongs to the class, not to an object.
+- **Memory efficiency**: Static members are stored in a single memory location.
+- **Access through class name**: Static members can be accessed using the class name without creating an instance.
+- **No `this` pointer**: Static member functions do not have access to the `this` pointer.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are static data members, member functions, variables, and function?
+
+#### **1. Static Data Members**
+Static data members are **variables that belong to a class rather than an instance**. They are shared among all objects of the class and maintain a single copy in memory.
+
+##### Characteristics:
+- Declared inside the class using the `static` keyword.
+- Defined and initialized outside the class using the **scope resolution operator (`::`)**.
+- Shared by all objects of the class.
+- Must be accessed using the class name (preferred) or an object.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Employee {
+public:
+    static int count; // Static variable
+    string eName;
+
+    void setName(string name) {
+        eName = name;
+        count++; // Increment count for every new employee
+    }
+
+    static int getCount() { // Static method
+        return count;
+    }
+};
+
+// Define and initialize static variable
+int Employee::count = 0;
+
+int main() {
+    Employee emp1, emp2;
+    emp1.setName("Alice");
+    emp2.setName("Bob");
+
+    // Access static member using class name
+    cout << "Total Employees: " << Employee::getCount() << endl;
+}
+```
+
+#### **2. Static Member Functions**
+
+Static member functions belong to the **class** rather than an **object** and can only access **static data members**.
+
+##### Rules:
+- Cannot access **non-static data members**.
+- Cannot use the **`this` pointer**.
+- Can be called using the **class name**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Circle {
+    int radius;
+    static const float Pi;
+
+public:
+    void setRadius(int r) {
+        radius = r;
+    }
+
+    int getRadius() const {
+        return radius;
+    }
+
+    // Static function to get Pi value
+    static float getPi() {
+        return Pi;
+    }
+};
+
+// Define static constant
+const float Circle::Pi = 3.14159;
+
+int main() {
+    // Access static function without creating an object
+    cout << "Value of Pi: " << Circle::getPi() << endl;
+}
+```
+
+#### **3. Static Variable**
+
+A **static variable** is a variable that belongs to the **class** rather than an **instance**. It is shared among all objects of the class, meaning only **one copy** of the variable exists.
+
+- **Shared Across Objects**: A static variable is common to all objects.
+- **Declared Inside the Class**: But must be **defined outside** the class.
+- **Memory Allocation**: Allocated once, at program start, and deallocated at program end.
+- **Access**: Accessed using **class name** with `::` scope resolution operator.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Counter {
+public:
+    static int count; // Static variable declaration
+
+    Counter() {
+        count++; // Increment count for each object created
+    }
+
+    static int getCount() { // Static function
+        return count;
+    }
+};
+
+// Define and initialize static variable
+int Counter::count = 0;
+
+int main() {
+    Counter obj1, obj2, obj3;
+
+    // Access static variable using class name
+    cout << "Total objects created: " << Counter::getCount() << endl;
+}
+```
+
+#### **4. Static Functions**
+
+A **static function** is a function that belongs to the **class**, not to any specific object. It can **only access static variables** and **other static functions**.
+
+- **Cannot access non-static members**.
+- **Does not require an object** to be called.
+- **Cannot use** the `this` pointer.
+- **Can be called using the class name**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Circle {
+    int radius;
+    static const float Pi;
+
+public:
+    void setRadius(int r) {
+        radius = r;
+    }
+
+    int getRadius() const {
+        return radius;
+    }
+
+    // Static function to get Pi value
+    static float getPi() {
+        return Pi;
+    }
+};
+
+// Define static constant
+const float Circle::Pi = 3.14159;
+
+int main() {
+    // Access static function without creating an object
+    cout << "Value of Pi: " << Circle::getPi() << endl;
+}
+```
+
+| Feature                  | Static Data Members                        | Static Member Functions                 | Static Variables                        | Static Functions                         |
+|--------------------------|------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------|
+| **Definition**           | A static variable inside a class.        | A function that belongs to the class.  | A static variable (inside or outside a class). | A static function that can only access static members. |
+| **Memory**               | Stored in **data segment**, shared among objects. | Stored in **code segment**, no object needed. | Stored in **data segment**, retains value between function calls. | Stored in **code segment**, no object needed. |
+| **Scope**                | Belongs to the **class** (not instances). | Belongs to the **class**.               | Local to a function or class.          | Belongs to the **class**.                |
+| **Access**               | Can be accessed using **ClassName::member**. | Can be accessed using **ClassName::function()**. | If inside a class, accessed using **ClassName::member**. | Can be accessed using **ClassName::function()**. |
+| **Initialization**       | Defined and initialized outside the class. | Defined inside the class.              | Initialized **once** when declared.    | Defined inside the class.                |
+| **Can Access Non-Static?** | No, only static members.               | No, only static members.            | ✅ Yes (if global or non-class variable). | No, only static members.               |
+| **Example**              | `static int count;`                      | `static int getCount();`               | `static int count = 0;`                | `static void display();`                 |
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is `const` in OOP and how is it used?
+
+In Object-Oriented Programming (OOP), `const` is used to define **immutable objects, data members, and member functions** that should not be modified after initialization.
+
+#### **1. `const` Data Members**
+A **`const` data member** is a variable within a class whose value **cannot be modified** after initialization. It **must be initialized at the time of object creation**.
+
+##### Ways to Declare and Initialize `const` Data Members:
+1. **Direct Initialization** (Some compilers do not allow this).
+2. **Initializer List in Constructor** (Recommended approach).
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Student {
+    string name;
+
+    // 1) Initializing const member at time of declaration
+    const int Id = 1;
+    const double CNIC;
+
+public:
+    // 2) Initializing const member in member initializer list
+    Student() : CNIC(1234567890123) {} // Correct way
+};
+
+int main() {
+    Student obj;
+}
+```
+
+- **Note: You must initialize const data members during object construction.**
+
+#### **2. `const` Member Functions**
+A `const` member function ensures that no class data members (whether const or non-const) can be modified inside it.
+
+##### Key Rules:
+- It only allows memory reading.
+- It can be accessed by both const and non-const objects.
+- Constructors cannot be const, as they modify object state.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Student {
+    string name;
+    const int Id = 1;
+
+public:
+    // Const member function (Only reading is allowed)
+    string getName() const {
+        // name = "Ahad"; ❌ Error: Cannot modify data member
+        return name;
+    }
+
+    int getId() const {
+        // Id = 9; ❌ Error: Cannot modify `const` data member
+        return Id;
+    }
+};
+
+int main() {
+    Student student_1;
+    const Student student_2;
+
+    // Accessing `const` function with a non-const object
+    student_1.getId();
+
+    // Accessing `const` function with a const object
+    student_2.getId();
+}
+```
+
+#### **3. `const` objects**
+A `const` object is an instance of a class that only allows memory reading. This means you cannot modify any data members.
+
+##### Key Rules:
+- const objects can only call const member functions.
+- They cannot call non-const member functions.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Student {
+    string name;
+    const int Id = 1;
+
+public:
+    // Const function
+    int getId() const {
+        return Id;
+    }
+
+    // Non-const function
+    string getName() {
+        return name;
+    }
+};
+
+int main() {
+    const Student student_1;
+
+    // ✅ Allowed: Calling `const` member function
+    student_1.getId();
+
+    // ❌ Error: `const` object cannot call non-`const` function
+    // student_1.getName(); // Uncommenting this will cause an error
+}
+```
 
 **[⬆ Back to Top](#table-of-contents)**
 
