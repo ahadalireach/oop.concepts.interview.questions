@@ -40,10 +40,21 @@
 | 34   | [Difference between Object-Oriented Programming vs Structural Programming](#difference-between-object-oriented-programming-vs-structural-programming) |
 | 35   | [Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)](#difference-between-procedure-oriented-programming-pop-and-object-oriented-programming-oop) |
 | 36   | [What do you understand by a pure object-oriented language?](#what-do-you-understand-by-a-pure-object-oriented-language) |
+| 37   | [What is Struct?](#what-is-struct) |
+| 38   | [What is a Class and Why Do We Need It in OOP?](#what-is-a-class-and-why-do-we-need-it-in-oop) |
+| 39   | [Why Use a Class Instead of a Struct?](#why-use-a-class-instead-of-a-struct) |
+| 40   | [Similarities Between Class and Struct](#similarities-between-class-and-struct) |
+| 41   | [Difference Between Class and Struct](#difference-between-class-and-struct) |
+| 42   | [Difference Between Class and Struct](#difference-between-class-and-struct) |
+| 43   | [What are Class Attributes & Methods in OOP?](#what-are-class-attributes-methods-in-oop) |
+| 44   | [How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?](#how-is-memory-allocated-for-variables-and-functions-in-a-c-class-and-how-does-this-differ-for-objects-of-the-class) |
+| 45   | [What are access specifiers in OOP?](#what-are-access-specifiers-in-oop) |
+| 46   | [What is Sealed Modifier??](#what-is-sealed-modifier) |
+
 
 ---
 
-## Q. What is Programming & Why C++?
+### Q. What is Programming & Why C++?
 
 **Programming**
 
@@ -60,7 +71,7 @@ C++ was created by Bjarne Stroustrup in 1979 and is valued for:
 
 ---
 
-## Q. What is a Programming Paradigm?
+### Q. What is a Programming Paradigm?
 
 A **programming paradigm** is a style or approach to programming. Some common paradigms are:
 
@@ -108,7 +119,7 @@ A **programming paradigm** is a style or approach to programming. Some common pa
 
 ---
 
-## Q. What is the Difference Between C++ and C?
+### Q. What is the Difference Between C++ and C?
 
 - **C++** is an extension of **C**, providing additional features like **Object-Oriented Programming (OOP)**, **overloading**, and **templates**.
 - **C** is procedural, while **C++** supports both procedural and object-oriented programming.
@@ -117,7 +128,7 @@ A **programming paradigm** is a style or approach to programming. Some common pa
 
 ---
 
-## Q. Files Structure in C++
+### Q. Files Structure in C++
 
 In C++, the organization of files is crucial for managing and structuring code effectively:
 
@@ -137,7 +148,7 @@ Overall, a typical C++ program consists of:
 
 ---
 
-## Q. What do Low Level and High Level Mean?
+### Q. What do Low Level and High Level Mean?
 
 **High Level**: Imagine using Google to search for something. You don’t need to understand how Google works behind the scenes, you just type your query and get results easily. High-level programming languages are like this – they’re designed to be easy to use and understand, without worrying about how everything works under the hood.
 
@@ -149,7 +160,7 @@ In short, **high-level** is easy to use and understand, while **low-level** give
 
 ---
 
-## Q. What are Variables and Comments?
+### Q. What are Variables and Comments?
 
 **Variables**: Think of variables as labeled boxes where you can store information. If you have a box labeled `age`, you can put a number in it to represent someone's age. Variables can hold different types of data, like numbers (`int`), decimal values (`float`), or characters (`char`).
 
@@ -159,7 +170,7 @@ In short, **high-level** is easy to use and understand, while **low-level** give
 
 ---
 
-## Q. Variable Scope
+### Q. Variable Scope
 
 The scope of a variable defines where in the code you can use it. You can think of it like this: if you’re in a specific room, you can only use the items in that room. Similarly, a variable's scope determines where it can be accessed in your program.
 
@@ -171,7 +182,7 @@ The scope of a variable defines where in the code you can use it. You can think 
 
 ---
 
-## Q. What are Data Types?
+### Q. What are Data Types?
 
 Data types specify the kind of data a variable can hold. They tell the program what type of information to store and how to handle it.
 
@@ -201,7 +212,7 @@ In C++, data types are divided into three main groups:
 
 ---
 
-## Q. What are Reserved Keywords in C++?
+### Q. What are Reserved Keywords in C++?
 
 Reserved keywords are special words that C++ uses for specific purposes. They are part of the language's rules and help the program do things like defining variables, controlling the flow, and more.
 
@@ -220,7 +231,7 @@ You **cannot** use reserved keywords as names for your variables, functions, or 
 
 ---
 
-## Q. What are Operators and Their Different Types in C++?
+### Q. What are Operators and Their Different Types in C++?
 
 Operators are symbols in C++ that perform operations on variables and values, such as calculations, comparisons, and logical operations. Below are the different types of operators:
 
@@ -266,7 +277,7 @@ Operators are symbols in C++ that perform operations on variables and values, su
 
 ---
 
-## Q. What are Built-in Data Types in C++?
+### Q. What are Built-in Data Types in C++?
 
 Built-in data types in C++ are predefined types that are fundamental for storing data in a program. These data types are part of the C++ language and are used to store simple types of data.
 
@@ -280,7 +291,7 @@ Built-in data types in C++ are predefined types that are fundamental for storing
 
 ---
 
-## Q. What is the Difference Between `float`, `double`, and `long double` Literals?
+### Q. What is the Difference Between `float`, `double`, and `long double` Literals?
 
 **`float`**:
 
@@ -307,7 +318,7 @@ Built-in data types in C++ are predefined types that are fundamental for storing
 
 ---
 
-## Q. What is Typecasting in C++?
+### Q. What is Typecasting in C++?
 
 Typecasting is the process of converting a variable from one data type to another. This is useful when you need to perform operations that require specific data types or when you want to ensure compatibility between different data types.
 
@@ -322,7 +333,7 @@ Typecasting helps in performing precise operations, especially when dealing with
 
 ---
 
-## Q. How Do You Use the Scope Resolution Operator in C++?
+### Q. How Do You Use the Scope Resolution Operator in C++?
 
 The scope resolution operator `::` is used to access global variables or functions from within a function or class where there might be local variables or functions with the same name. It helps in distinguishing between different scopes.
 
@@ -351,7 +362,7 @@ int main() {
 
 ---
 
-## Q. What are constants, manipulators, and operator precedence in C++?
+### Q. What are constants, manipulators, and operator precedence in C++?
 
 - **Constants**
   Constants are unchangeable; once a constant variable is initialized in a program, its value cannot be changed afterwards.
@@ -399,7 +410,7 @@ int main() {
 
 ---
 
-## Q. What are Control Structures in C++?
+### Q. What are Control Structures in C++?
 
 Control structures in C++ manage the flow of execution within a program. They allow you to make decisions, repeat actions, and control the execution path based on certain conditions.
 
@@ -456,7 +467,7 @@ Control structures in C++ manage the flow of execution within a program. They al
 
 ---
 
-## Q. What are the differences between for, while, and do-while loops in C++?
+### Q. What are the differences between for, while, and do-while loops in C++?
 
 1. For Loop
 
@@ -492,7 +503,7 @@ Control structures in C++ manage the flow of execution within a program. They al
 
 ---
 
-## Q. What is the difference between the break and continue statements in C++?
+### Q. What is the difference between the break and continue statements in C++?
 
 1. Break Statement
 
@@ -524,7 +535,7 @@ Control structures in C++ manage the flow of execution within a program. They al
 
 ---
 
-## Q. What is a pointer and how is it used?
+### Q. What is a pointer and how is it used?
 
 A pointer is a data type that holds the address of another data type. The `&` operator is called the "address of" operator, and the `*` operator is called the "dereference" operator.
 
@@ -598,7 +609,7 @@ cout << "Value of a through ptr2: " << **ptr2 << endl; // Dereferencing ptr2 twi
 
 ---
 
-## Q. What is an array, and how are arrays and pointers related in C++?
+### Q. What is an array, and how are arrays and pointers related in C++?
 
 An **array** is a collection of similar items (like numbers) stored next to each other in memory.
 
@@ -633,7 +644,7 @@ cout << "The value of *(p+3) is " << *(p+3) << endl;
 
 ---
 
-## Q. What are Struct, Union, and Enums in C++?
+### Q. What are Struct, Union, and Enums in C++?
 
 1. Struct
 
@@ -696,7 +707,7 @@ int main() {
 
 ---
 
-## Q. What are Function and Function Prototypes in C++?
+### Q. What are Function and Function Prototypes in C++?
 
 1. Function
 
@@ -731,7 +742,7 @@ int sum(int, int);    // Acceptable but less descriptive
 
 ---
 
-## Q. What are Actual and Formal Parameters?
+### Q. What are Actual and Formal Parameters?
 
 1. Formal Parameters
 
@@ -758,7 +769,7 @@ int main() {
 
 ---
 
-## Q. What does it mean by Call by Value, Call by Reference, & Call by Pointer in C++?
+### Q. What does it mean by Call by Value, Call by Reference, & Call by Pointer in C++?
 
 1. Call by Value
 
@@ -830,7 +841,7 @@ int main(){
 
 ---
 
-## Q. What does it mean by Inline Functions, Default Arguments, & Constant Arguments in C++?
+### Q. What does it mean by Inline Functions, Default Arguments, & Constant Arguments in C++?
 
 1. Inline Functions
 
@@ -884,7 +895,7 @@ int main(){
 
 ---
 
-## Q. Recursion and Recursive Function in C++?
+### Q. Recursion and Recursive Function in C++?
 
 **Recursion** occurs when a function calls itself, either directly or indirectly. A function that performs this self-calling is known as a **recursive function**. Recursive functions typically have two main components:
 
@@ -906,7 +917,7 @@ int main(){
 }
 ```
 
-## Q. What is function overloading?
+### Q. What is function overloading?
 
 **Function overloading** in C++ allows multiple functions to have the same name but different parameters. These functions can differ in the number of parameters or their types. This enables functions to perform similar tasks with different types or amounts of input.
 
@@ -939,16 +950,16 @@ int main(){
 
 ---
 
-## Q. What is the `new` keyword/operator in C++ and what is its purpose and benefits?
+### Q. What is the `new` keyword/operator in C++ and what is its purpose and benefits?
 
 The `new` keyword in C++ is used for **dynamically allocating memory** on the **heap** at runtime. It allows creating variables, objects, and arrays when their size is not known at compile time.
 
-### Purpose
+#### Purpose
 - **Allocates memory on the heap** instead of the stack.
 - Returns a pointer to the allocated memory.
 - Used for creating objects dynamically, giving more control over memory.
 
-### Benefits
+#### Benefits
 **Dynamic Memory Allocation** – Allows flexible memory management at runtime.
 **Efficient Resource Utilization** – Allocates memory only when needed.
 **Supports Object-Oriented Programming** – Enables dynamic object creation.
@@ -978,16 +989,16 @@ int main() {
 
 ---
 
-## Q. What is the `delete` keyword/operator in C++ and what is its purpose and benefits?
+### Q. What is the `delete` keyword/operator in C++ and what is its purpose and benefits?
 
 The `delete` keyword in C++ is used to **free dynamically allocated memory** that was allocated using the `new` keyword. It ensures that memory allocated on the **heap** is properly released and made available for reuse.
 
-### Purpose
+#### Purpose
 - **Releases memory allocated with `new`**, preventing memory leaks.
 - Returns the allocated memory back to the **operating system**.
 - Improves memory efficiency, ensuring the program doesn't consume excessive resources.
 
-### Benefits
+#### Benefits
 **Prevents Memory Leaks** – Ensures memory allocated using `new` is properly deallocated.
 **Efficient Memory Management** – Helps manage heap memory efficiently, especially for large objects and arrays.
 **Avoids Unnecessary Memory Consumption** – Frees up memory for reuse.
@@ -1018,14 +1029,14 @@ int main() {
 
 ---
 
-## Q. What is OOP?
+### Q. What is OOP?
 
 - OOP stands for Object-Oriented Programming.
 - It's a **programming paradigm** or way of writing code that uses "objects" to represent real-world things or concepts.
 - Each object can have its own data and functions (called methods) that work with that data.
 - It is easier to relate real world entities to the OOP.
 
-### 🔑 Key Features (Pillars of OOP)
+#### 🔑 Key Features (Pillars of OOP)
 1. **Encapsulation** – Restricts direct access to object data, ensuring security.
 2. **Abstraction** – Hides complex details, exposing only essential features.
 3. **Inheritance** – Allows a class to reuse properties and behavior of another class.
@@ -1035,7 +1046,7 @@ int main() {
 
 ---
 
-## Q. Why OOP? Purpose of Implementing OOP?
+### Q. Why OOP? Purpose of Implementing OOP?
 
 OOP provides several benefits that make software development efficient and maintainable:
 
@@ -1053,11 +1064,11 @@ OOP provides several benefits that make software development efficient and maint
 
 ---
 
-## Q. Why is OOP so popular?
+### Q. Why is OOP so popular?
 
 OOPs, programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well.
 
-### **Key Reasons for OOP's Popularity**
+#### **Key Reasons for OOP's Popularity**
 - **Modularity** – Breaks programs into smaller, manageable parts.
 - **Code Reusability** – **Inheritance** reduces duplication and promotes efficiency.
 - **Scalability** – Easily extends and adapts to growing software needs.
@@ -1066,7 +1077,7 @@ OOPs, programming paradigm is considered as a better style of programming. Not o
 - **Parallel Development** – Teams can work on different modules independently.
 - **Data Security** – **Encapsulation** restricts unauthorized access.
 
-### **Not only that, the main pillar of OOPs**
+#### **Not only that, the main pillar of OOPs**
 1. **Encapsulation** – Binds data and methods together, restricting direct access.
 2. **Abstraction** – Hides unnecessary details, exposing only essential features.
 3. **Inheritance** – Enables reusability by deriving new classes from existing ones.
@@ -1078,7 +1089,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-## Q. Pros and Cons of Object-Oriented Programming (OOP)
+### Q. Pros and Cons of Object-Oriented Programming (OOP)
 
 | **Pros** | **Cons** |
 |----------|---------|
@@ -1103,7 +1114,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-## Q. Difference between Object-Oriented Programming vs Structural Programming
+### Q. Difference between Object-Oriented Programming vs Structural Programming
 
 | **Object-Oriented Programming (OOP)**                          | **Structural Programming**                                                                  |
 |---------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -1123,7 +1134,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-## Q. Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)
+### Q. Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)
 
 | **Procedure-Oriented Programming (POP)** | **Object-Oriented Programming (OOP)** |
 |------------------------------------------|------------------------------------------|
@@ -1146,7 +1157,7 @@ Makes it easy for programmers to solve complex scenarios. As a result of these, 
 
 ---
 
-## Q. What do you understand by pure object-oriented language?
+### Q. What do you understand by pure object-oriented language?
 
 A programming language is called a **pure object-oriented language** if it treats everything inside the program as an object. Unlike hybrid OOP languages, pure OOP languages do not support primitive data types (e.g., integers, floats, characters) outside the object model.
 
@@ -1160,12 +1171,274 @@ A pure OOP language must satisfy the following properties:
 - **All User-Defined Types Are Objects** – Every custom type must be an object.
 - **All Operations Are Performed Through Methods** – Direct access to variables is restricted; all interactions happen through object methods.
 
-### Examples of Pure OOP Languages
+#### Examples of Pure OOP Languages
 - **Smalltalk**
 - **Eiffel**
 - **Ruby**
 
 Languages like **Java, C++, Python, and C#** are not purely object-oriented because they allow primitive data types like `int`, `char`, and `float` outside the object model.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. What is Struct?
+
+- A struct (structure) is a user-defined data type in C++ that groups related variables under a single name.
+- Structs are typically used for lightweight objects that hold data without requiring encapsulation or functionality.
+- Unlike classes, struct members are `public` by default.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+struct Person {
+    string name;
+    int age;
+};
+
+int main() {
+    Person p1;
+    p1.name = "Alice";
+    p1.age = 30;
+    cout << "Name: " << p1.name << ", Age: " << p1.age << endl;
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. What is a Class and Why Do We Need It in OOP?
+
+- Class is a building block of OOP.
+- It is a user defined data type.
+- It is a blueprint or recipe for creating objects in object-oriented programming (OOP).
+- It contains data members (attributes) and member functions (methods) that define the behaviors of objects.
+
+**Why Do We Need It?**
+- **Encapsulation:** Bundles data and methods that operate on the data.
+- **Reusability:** Once defined, a class can create many instances (objects).
+- **Inheritance:** A class can inherit properties and behaviors from other classes.
+- **Abstraction:** Simplifies complex systems by hiding unnecessary details.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Person {
+public:
+    string name;
+    int age;
+
+    void introduce() {
+        cout << "Hello, my name is " << name << " and I am " << age << " years old." << endl;
+    }
+};
+
+int main() {
+    Person p1;
+    p1.name = "Bob";
+    p1.age = 25;
+    p1.introduce();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. Why Use a Class Instead of a Struct?
+
+#### 1. **Access Control:**
+   - In **classes**, members can be made `private` or `protected`, restricting access to only those within the class or its derived classes.
+   - **Structs** members are `public` by default, meaning they are accessible from outside the struct.
+
+#### 2. **Functionality:**
+   - **Classes** can have:
+     - Member functions (methods)
+     - Constructors and destructors
+     - Operator overloading
+   - **Structs** are typically used for simple data storage and do not support these advanced features.
+
+#### 3. **Inheritance:**
+   - **Classes** support **inheritance**, meaning a class can derive from another class and reuse or modify its functionality.
+   - **Structs** do not support inheritance, limiting their ability to extend functionality.
+
+```cpp
+// Class with Private Members
+#include <iostream>
+using namespace std;
+
+class Person {
+private:
+    string name;
+    int age;
+
+public:
+    // Constructor to initialize the data members
+    Person(string n, int a) : name(n), age(a) {}
+
+    // Member function to display the details
+    void showDetails() {
+        cout << "Name: " << name << ", Age: " << age << endl;
+    }
+};
+
+int main() {
+    // Creating an object of the class
+    Person p1("Charlie", 28);
+
+    // Calling the member function to show details
+    p1.showDetails();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. Similarities Between Class and Struct
+
+- Both are used to group related data.
+- Both can contain member functions.
+- Both can have member variables (data members).
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. Difference Between Class and Struct
+
+| **Class** | **Struct** |
+|-----------|------------|
+| By default, members are `private`. | By default, members are `public`. |
+| Supports inheritance, polymorphism, encapsulation, and abstraction. | Does not support inheritance. |
+| Can have constructors, destructors, and member functions. | Typically used for data storage and has limited functionality. |
+
+```cpp
+// Class Example
+class Person {
+private:
+    string name;
+public:
+    Person(string n) : name(n) {}
+    void display() { cout << "Name: " << name << endl; }
+};
+
+// Struct Example
+struct PersonStruct {
+    string name;
+};
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. What are Class Attributes & Methods in OOP?
+
+- **Attributes (or member variables)** represent the **state** of an object.
+- **Methods** are functions defined inside a class that represent the **behavior** of the object.
+
+```cpp
+class Car {
+public:
+    string model;
+    int year;
+
+    void display() {
+        cout << "Model: " << model << ", Year: " << year << endl;
+    }
+};
+
+int main() {
+    Car car1;
+    car1.model = "Tesla Model 3";
+    car1.year = 2023;
+    car1.display();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?
+
+- **For Variables:** When an object is created, memory is allocated for the object’s member variables. Each object has its own set of data members.
+- **For Functions:** Member functions are not duplicated for each object. They are stored once in memory and shared by all instances of the class.
+
+```cpp
+class MyClass {
+public:
+    int x;  // Member variable
+    static int count;  // Static variable (shared by all objects)
+
+    MyClass() {
+        x = 0;
+    }
+
+    void increment() {
+        x++;
+    }
+};
+
+// Memory allocation for static variable is shared across all objects
+int MyClass::count = 0;
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. What are access specifiers in OOP?
+
+Access specifiers control the visibility of members in a class:
+
+- **Public:** Members are accessible from anywhere in the program.
+- **Private:** Members are accessible only within the class itself.
+- **Protected:** Members are accessible within the class and its derived classes.
+
+```cpp
+class Person {
+private:
+    string name;
+
+public:
+    Person(string n) : name(n) {}
+
+    void displayName() {
+        cout << "Name: " << name << endl;
+    }
+};
+
+int main() {
+    Person p("David");
+    p.displayName();  // Accessing public method
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Q. What is Sealed Modifier?
+
+A **sealed class** or **sealed modifier** is used to prevent other classes from inheriting from it. In some languages like C# or Java, marking a class as sealed ensures that no class can derive from it.
+
+```csharp
+sealed class MyClass {
+    public void Display() {
+        Console.WriteLine("This is a sealed class.");
+    }
+}
+
+// This will result in a compile-time error:
+// class DerivedClass : MyClass { }  // Error: cannot inherit from sealed class
+```
+
+- In languages like C++, the equivalent would be to simply avoid inheritance by not defining any child classes, as C++ does not have a direct **sealed** keyword.
 
 **[⬆ Back to Top](#table-of-contents)**
 
