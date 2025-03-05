@@ -30,38 +30,58 @@
 | 24  | [What Does it Mean by Call by Value, Call by Reference, & Call by Pointer in C++?](#what-does-it-mean-by-call-by-value-call-by-reference--call-by-pointer-in-c)             |
 | 25  | [What Does it Mean by Inline Functions, Default Arguments, & Constant Arguments in C++?](#what-does-it-mean-by-inline-functions-default-arguments--constant-arguments-in-c) |
 | 26  | [Recursion and Recursive Function in C++?](#recursion-and-recursive-function-in-c)                                                                                          |
-| 27  | [What is Function Overloading?](#what-is-function-overloading)                                                                                                              |
-(#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
-| 28   | [What is OOP?](#what-is-oop) |
-| 29   | [Why OOP? Purpose of Implementing OOP?](#why-oop-purpose-of-implementing-oop) |
-| 30   | [Why is OOP so popular?](#why-is-oop-so-popular) |
-| 31   | [Pros and Cons of Object-Oriented Programming (OOP)](#pros-and-cons-of-object-oriented-programming-oop) |
-| 32   | [Difference between Object-Oriented Programming vs Structural Programming](#difference-between-object-oriented-programming-vs-structural-programming) |
-| 33   | [Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)](#difference-between-procedure-oriented-programming-pop-and-object-oriented-programming-oop) |
-| 34   | [What do you understand by a pure object-oriented language?](#what-do-you-understand-by-a-pure-object-oriented-language) |
-| 35   | [What is Struct?](#what-is-struct) |
-| 36   | [What is a Class and Why Do We Need It in OOP?](#what-is-a-class-and-why-do-we-need-it-in-oop) |
-| 37   | [Why Use a Class Instead of a Struct?](#why-use-a-class-instead-of-a-struct) |
-| 38   | [Similarities Between Class and Struct](#similarities-between-class-and-struct) |
-| 39   | [Difference Between Class and Struct](#difference-between-class-and-struct) |
-| 40   | [What is Object and Why Do We Need It in OOP?](#what-is-a-object-and-why-do-we-need-it-in-oop) |
-| 41   | [What are Class Attributes & Methods in OOP?](#what-are-class-attributes-methods-in-oop) |
-| 42   | [How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?](#how-is-memory-allocated-for-variables-and-functions-in-a-c-class-and-how-does-this-differ-for-objects-of-the-class) |
-| 43   | [What are access specifiers in OOP?](#what-are-access-specifiers-in-oop) |
-| 44   | [What is Sealed Modifier?](#what-is-sealed-modifier) |
-| 45   | [What is the `new` keyword/operator in C++ and its purpose and benefits?](#what-is-the-new-keywordoperator-in-c-and-its-purpose-and-benefits) |
-| 46   | [What is the `delete` keyword/operator in C++ and its purpose and benefits?](#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
-| 47   | [What does it mean by Pointer to objects in C++ and what is its purpose and benefit?](#what-does-it-mean-by-pointer-to-objects-in-c-and-what-is-its-purpose-and-benefit) |
-| 48   | [What are friend functions and friend classes in C++? How are they used?](#what-are-friend-functions-and-friend-classes-in-c-how-are-they-used) |
-| 49   | [What is the arrow (->) operator and . operator in C++, and what is their purpose and benefits with classes and objects?](#what-is-the-arrow---operator-and--operator-in-c-and-what-is-their-purpose-and-benefits-with-classes-and-objects) |
-| 50   | [What does it mean by Array of Objects in C++?](#what-does-it-mean-by-array-of-objects-in-c) |
-| 51   | [How can you use arrays of objects and pass objects as function arguments in C++? Provide examples.](#how-can-you-use-arrays-of-objects-and-pass-objects-as-function-arguments-in-c-provide-examples) |
-| 52   | [What are the types of variables in OOP?](#what-are-the-types-of-variables-in-oop) |
-| 53   | [What is `this` pointer in OOP and its purpose?](#what-is-this-pointer-in-oop-and-its-purpose) |
-| 54   | [What are Member Functions, Its Purpose and Nesting of Member Function in OOP?](#what-are-member-functions-its-purpose-and-nesting-of-member-function-in-oop)
-| 55   | [Explain the concept of `static` in OOP?](#explain-the-concept-of-static-in-oop) |
-| 56   | [What are static data members, member functions, variables, and functions?](#what-are-static-data-members-member-functions-variables-and-methods) |
-| 57   | [What is `const` in OOP and how is it used?](#what-is-const-in-oop-and-how-is-it-used) |
+| 27  | [What is Function Overloading?](#what-is-function-overloading)                                                                                        |
+| 28  | [What is OOP?](#what-is-oop) |
+| 29  | [Why OOP? Purpose of Implementing OOP?](#why-oop-purpose-of-implementing-oop) |
+| 30  | [Why is OOP so popular?](#why-is-oop-so-popular) |
+| 31  | [Pros and Cons of Object-Oriented Programming (OOP)](#pros-and-cons-of-object-oriented-programming-oop) |
+| 32  | [Difference between Object-Oriented Programming vs Structural Programming](#difference-between-object-oriented-programming-vs-structural-programming) |
+| 33  | [Difference between Procedure-Oriented Programming (POP) and Object-Oriented Programming (OOP)](#difference-between-procedure-oriented-programming-pop-and-object-oriented-programming-oop) |
+| 34  | [What do you understand by a pure object-oriented language?](#what-do-you-understand-by-a-pure-object-oriented-language) |
+| 35  | [What is Struct?](#what-is-struct) |
+| 36  | [What is a Class and Why Do We Need It in OOP?](#what-is-a-class-and-why-do-we-need-it-in-oop) |
+| 37  | [Why Use a Class Instead of a Struct?](#why-use-a-class-instead-of-a-struct) |
+| 38  | [Similarities Between Class and Struct](#similarities-between-class-and-struct) |
+| 39  | [Difference Between Class and Struct](#difference-between-class-and-struct) |
+| 40  | [What is Object and Why Do We Need It in OOP?](#what-is-a-object-and-why-do-we-need-it-in-oop) |
+| 41  | [What are Class Attributes & Methods in OOP?](#what-are-class-attributes-methods-in-oop) |
+| 42  | [How is memory allocated for variables and functions in a C++ class, and how does this differ for objects of the class?](#how-is-memory-allocated-for-variables-and-functions-in-a-c-class-and-how-does-this-differ-for-objects-of-the-class) |
+| 43  | [What are access specifiers in OOP?](#what-are-access-specifiers-in-oop) |
+| 44  | [What is Sealed Modifier?](#what-is-sealed-modifier) |
+| 45  | [What is the `new` keyword/operator in C++ and its purpose and benefits?](#what-is-the-new-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 46  | [What is the `delete` keyword/operator in C++ and its purpose and benefits?](#what-is-the-delete-keywordoperator-in-c-and-its-purpose-and-benefits) |
+| 47  | [What does it mean by Pointer to objects in C++ and what is its purpose and benefit?](#what-does-it-mean-by-pointer-to-objects-in-c-and-what-is-its-purpose-and-benefit) |
+| 48  | [What are friend functions and friend classes in C++? How are they used?](#what-are-friend-functions-and-friend-classes-in-c-how-are-they-used) |
+| 49  | [What is the arrow (->) operator and . operator in C++, and what is their purpose and benefits with classes and objects?](#what-is-the-arrow---operator-and--operator-in-c-and-what-is-their-purpose-and-benefits-with-classes-and-objects) |
+| 50  | [What does it mean by Array of Objects in C++?](#what-does-it-mean-by-array-of-objects-in-c) |
+| 51  | [How can you use arrays of objects and pass objects as function arguments in C++? Provide examples.](#how-can-you-use-arrays-of-objects-and-pass-objects-as-function-arguments-in-c-provide-examples) |
+| 52 | [What are the types of variables in OOP?](#what-are-the-types-of-variables-in-oop) |
+| 53 | [What is `this` pointer in OOP and its purpose?](#what-is-this-pointer-in-oop-and-its-purpose) |
+| 54 | [What are Member Functions, Its Purpose and Nesting of Member Function in OOP?](#what-are-member-functions-its-purpose-and-nesting-of-member-function-in-oop)
+| 55 | [Explain the concept of `static` in OOP?](#explain-the-concept-of-static-in-oop) |
+| 56 | [What are static data members, member functions, variables, and functions?](#what-are-static-data-members-member-functions-variables-and-methods) |
+| 57 | [What is `const` in OOP and how is it used?](#what-is-const-in-oop-and-how-is-it-used) |
+| 58 | [What is a Constructor?](#what-is-a-constructor) |
+| 59 | [What are the Rules for Creating a Constructor?](#what-are-the-rules-for-creating-a-constructor) |
+| 60 | [Difference between Constructor vs Method?](#difference-between-constructor-vs-method) |
+| 60 | [What is Constructor Overloading?](#what-is-constructor-overloading-in-c) |
+| 60 | [Is it possible to overload a constructor?](#is-it-possible-to-overload-a-constructor) |
+| 61 | [What is the benefit or concept of declaring Multiple or more than one Constructors in a Class?](#what-is-the-benefit-or-concept-of-declaring-multiple-or-more-than-one-constructors-in-a-class) |
+| 62 | [What Are the Types of Constructor?](#what-are-the-types-of-constructor) |
+| 63 | [Copy Constructor: Is the Object Passed by Value or Reference, and Why?](#copy-constructor-is-the-object-passed-by-value-or-reference-and-why) |
+| 64 | [Where is a Copy Constructor Called Implicitly?](#where-is-a-copy-constructor-called-implicitly) |
+| 65 | [Difference between Copy Constructor vs Assignment Operator?](#difference-between-copy-constructor-vs-assignment-operator) |
+| 66 | [What Does It Mean by Constructors with Default Arguments?](#what-does-it-mean-by-constructors-with-default-arguments-in-c) |
+| 67 | [What is Dynamic Initialization of Objects Using Constructors?](#what-is-dynamic-initialization-of-objects-using-constructors) |
+| 68 | [What is Constructor Delegation?](#what-is-constructor-delegation) |
+| 69 | [What is a Constructor Initialization List, What does it mean and why do we use it?](#what-is-a-constructor-initialization-list) |
+| 70 | [Can We Make a Constructor Private? If So, How Will We Create an Object of Such a Class?](#can-we-make-a-constructor-private-if-so-how-will-we-create-an-object-of-such-a-class) |
+| 71 | [Can a Constructor be Private or Protected?](#can-a-constructor-be-private-or-protected) |
+| 72 | [What is a Destructor?](#what-is-a-destructor) |
+| 73 | [What are the Rules for Creating a Destructor?](#what-are-the-rules-for-creating-a-destructor) |
+| 75 | [When Do We Need to Define Destructors?](#when-do-we-need-to-define-destructors) |
+| 76 | [Why Does a Class Have Only One Destructor & Why Do We Need One?](#why-does-a-class-have-only-one-destructor-why-do-we-need-one) |
+| 77 | [Can a Destructor be Private or Protected?](#can-a-destructor-be-private-or-protected) |
 
 ---
 
@@ -2416,6 +2436,1301 @@ int main() {
 }
 ```
 
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is a Constructor?
+
+A **constructor** is a special member function of a class that is automatically called when an object of the class is created.
+- It has the same name as the class and is primarily used to initialize objects.
+- It **does not return** any value (not even `void`).
+- If no constructor is defined, C++ provides a **default constructor**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Car {
+public:
+    string brand;
+
+    // Constructor
+    Car(string b) {
+        brand = b;
+        cout << "Constructor is called. Car brand: " << brand << endl;
+    }
+};
+
+int main() {
+    Car car1("Toyota"); // Constructor is automatically called
+    Car car2("Honda");  // Another object creation calls constructor again
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are the Rules for Creating a Constructor?
+
+- It **must have the same name** as the class.
+- It **cannot have a return type** (not even `void`).
+- It **cannot be `static`** (constructors belong to instances, not the class itself).
+- It **cannot be inherited** but can be called in derived class constructors.
+- It **cannot be virtual** but can participate in polymorphic behavior.
+- It **cannot be explicitly `final`** (though derived classes can restrict instantiation in different ways).
+- It **cannot be overridden**, but constructor delegation can be used.
+- It **can be overloaded** (multiple constructors with different parameters).
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Difference between Constructor vs Method?
+
+| **Constructor**                                                          | **Method**                                              |
+| ------------------------------------------------------------------------ | ------------------------------------------------------- |
+| Has the same name as the class name.                                     | Name and class name are not necessarily the same.       |
+| Used to initialize an object of its class.                               | A set of instructions that perform specific operations. |
+| Creates an instance of a class.                                          | Executes code but does not create an instance.          |
+| Invoked automatically when an object of the class is created.            | Explicitly called in the program.                       |
+| Cannot be inherited by derived classes.                                  | Can be inherited by derived classes.                    |
+| Has no return type (not even `void`).                                    | Must have a return type (e.g., `void`, `int`, etc.).    |
+| Cannot be called explicitly (only invoked during object creation).       | Can be called explicitly multiple times in the program. |
+| Cannot be declared as `static`.                                          | Can be declared as `static`.                            |
+| C++ does not provide a constructor automatically if a custom one exists. | There are no methods provided by default in C++.        |
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is Constructor Overloading?
+
+- Constructor overloading is a concept in which a class can have **multiple constructors** with different parameter lists.
+- The compiler automatically determines **which constructor to call** based on the arguments provided when an object is created.
+
+- Multiple constructors in the **same class** with different **parameter lists**.
+- The compiler selects the appropriate constructor based on the **arguments passed**.
+- Helps in **flexibility** and **different ways of initializing objects**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex {
+    int a, b;
+
+public:
+    // Default constructor
+    Complex() {
+        a = 0;
+        b = 0;
+    }
+
+    // Constructor with two parameters
+    Complex(int x, int y) {
+        a = x;
+        b = y;
+    }
+
+    // Constructor with one parameter
+    Complex(int x) {
+        a = x;
+        b = 0;
+    }
+
+    void printNumber() {
+        cout << "Your number is " << a << " + " << b << "i" << endl;
+    }
+};
+
+int main() {
+    Complex c1(4, 6); // Calls constructor with 2 arguments
+    c1.printNumber();
+
+    Complex c2(5);    // Calls constructor with 1 argument
+    c2.printNumber();
+
+    Complex c3;       // Calls default constructor
+    c3.printNumber();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Is it possible to overload a constructor?
+
+Yes, **constructors can be overloaded** by:
+- Changing the **number of parameters**.
+- Changing the **data types of parameters**.
+
+This allows flexibility in object initialization.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Example {
+    int a, b;
+
+public:
+    // Default constructor
+    Example() {
+        a = 0;
+        b = 0;
+    }
+
+    // Constructor with one integer parameter
+    Example(int x) {
+        a = x;
+        b = 0;
+    }
+
+    // Constructor with two integer parameters
+    Example(int x, int y) {
+        a = x;
+        b = y;
+    }
+
+    void display() {
+        cout << "a = " << a << ", b = " << b << endl;
+    }
+};
+
+int main() {
+    Example e1;      // Calls default constructor
+    Example e2(10);  // Calls constructor with 1 argument
+    Example e3(10, 20); // Calls constructor with 2 arguments
+
+    e1.display();
+    e2.display();
+    e3.display();
+}
+```
+
+---
+
+#### Can a Constructor or Function be Overloaded by Changing the Return Type?
+
+- **No**, a constructor or function **cannot** be overloaded **only** by changing the return type.
+
+**Why?**
+- **Constructors** do not have a return type, so changing it is not possible.
+- **Functions** cannot be overloaded **only** by changing the return type because the function signature does not include the return type in C++. The compiler will not be able to distinguish between two functions with the same name and parameter list but different return types.
+
+```cpp
+// Invalid Function Overloading (Return Type Change Only)
+#include <iostream>
+using namespace std;
+
+class Example {
+public:
+    int func() { return 10; }  // Function returning int
+    double func() { return 20.5; }  // ❌ Error: Function already declared
+};
+
+int main() {
+    Example obj;
+    cout << obj.func();
+}
+```
+
+---
+
+#### **How to Overload Correctly?**
+- To properly overload a function or constructor, change the number or type of parameters.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Example {
+public:
+    int func(int x) { return x; } // Function with int parameter
+    double func(double x) { return x; } // Function with double parameter
+};
+
+int main() {
+    Example obj;
+    cout << obj.func(10) << endl;     // Calls func(int)
+    cout << obj.func(10.5) << endl;   // Calls func(double)
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is the benefit or concept of declaring Multiple or more than one Constructors in a Class??
+
+#### **Concept**
+A class can have multiple constructors with different parameter lists, allowing **constructor overloading**. This means you can initialize objects in different ways depending on the given input.
+
+
+#### **Benefits of Multiple Constructors**
+1. **Flexibility in Object Initialization**
+   - Different constructors allow initializing an object with **different sets of data**.
+
+2. **Code Reusability**
+   - Avoids redundant initialization code by providing **multiple ways** to create an object.
+
+3. **Improved Readability and Maintainability**
+   - Makes the code more intuitive and easier to maintain by clearly defining how an object can be initialized.
+
+4. **Default Values Handling**
+   - Allows defining a **default constructor** along with parameterized constructors.
+
+5. **Encapsulation and Abstraction**
+   - Users do not need to know **internal implementation details** while initializing objects in different ways.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Rectangle {
+    int length, width;
+
+public:
+    // Default Constructor
+    Rectangle() {
+        length = 0;
+        width = 0;
+    }
+
+    // Constructor with one argument
+    Rectangle(int side) {
+        length = width = side;
+    }
+
+    // Constructor with two arguments
+    Rectangle(int l, int w) {
+        length = l;
+        width = w;
+    }
+
+    void display() {
+        cout << "Rectangle: " << length << " x " << width << endl;
+    }
+};
+
+int main() {
+    Rectangle r1;         // Calls default constructor
+    Rectangle r2(5);      // Calls constructor with one argument
+    Rectangle r3(4, 6);   // Calls constructor with two arguments
+
+    r1.display(); // Output: Rectangle: 0 x 0
+    r2.display(); // Output: Rectangle: 5 x 5
+    r3.display(); // Output: Rectangle: 4 x 6
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What Are the Types of Constructor?
+
+A **constructor** is a special member function of a class that initializes objects. In **C++**, there are several types of constructors, each serving different purposes.
+
+#### **1. Default Constructor**
+- A **constructor that takes no parameters**.
+- Initializes an object with default values.
+
+```cpp
+class Example {
+public:
+    int x;
+
+    // Default Constructor
+    Example() {
+        x = 0;
+    }
+
+    void display() {
+        cout << "Value of x: " << x << endl;
+    }
+};
+
+int main() {
+    Example obj; // Calls Default Constructor
+    obj.display(); // Output: Value of x: 0
+}
+```
+
+#### **2. Parameterized Constructor**
+- A constructor that **takes arguments**.
+- Used when we need to pass values while creating an object.
+
+```cpp
+class Example {
+public:
+    int x;
+
+    // Parameterized Constructor
+    Example(int value) {
+        x = value;
+    }
+
+    void display() {
+        cout << "Value of x: " << x << endl;
+    }
+};
+
+int main() {
+    Example obj(10); // Calls Parameterized Constructor
+    obj.display(); // Output: Value of x: 10
+}
+```
+
+#### **3. Copy Constructor**
+
+A constructor that creates a new object by copying an existing object.
+Used for object cloning.
+
+```cpp
+class Example {
+public:
+    int x;
+
+    // Parameterized Constructor
+    Example(int value) {
+        x = value;
+    }
+
+    // Copy Constructor
+    Example(const Example &obj) {
+        x = obj.x;
+    }
+
+    void display() {
+        cout << "Value of x: " << x << endl;
+    }
+};
+
+int main() {
+    Example obj1(20);  // Calls Parameterized Constructor
+    Example obj2 = obj1; // Calls Copy Constructor
+
+    obj2.display(); // Output: Value of x: 20
+}
+```
+
+#### **4. # Move Constructor in C++ (C++11 and Later)
+
+A **Move Constructor** is a special constructor that moves resources from a temporary (r-value) object to a new object, instead of copying them. This helps in optimizing performance by avoiding unnecessary deep copies.
+
+**Why Use a Move Constructor?**
+- **Performance Optimization:** Moves resources instead of duplicating them.
+- **Efficient Memory Management:** Prevents redundant memory allocations.
+- **Useful for Large Objects:** Especially beneficial when dealing with dynamic memory allocation (e.g., objects with pointers).
+
+- A move constructor takes an **r-value reference (`&&`)** as its parameter:
+
+```cpp
+class Example {
+public:
+    int* ptr; // Pointer to dynamically allocated memory
+
+    // Constructor
+    Example(int value) {
+        ptr = new int(value);
+        cout << "Constructor called!" << endl;
+    }
+
+    // Move Constructor
+    Example(Example &&obj) {
+        cout << "Move Constructor called!" << endl;
+        ptr = obj.ptr;  // Transfer ownership of the resource
+        obj.ptr = nullptr; // Nullify the source pointer
+    }
+
+    // Display Function
+    void display() {
+        if (ptr)
+            cout << "Value: " << *ptr << endl;
+        else
+            cout << "Object moved!" << endl;
+    }
+};
+
+int main() {
+    Example obj1(30);  // Calls Constructor
+    Example obj2 = std::move(obj1); // Calls Move Constructor
+
+    obj2.display(); // Output: Value: 30
+    obj1.display(); // Output: Object moved!
+}
+```
+
+---
+
+| Constructor Type    | Description                                         |
+|--------------------|-----------------------------------------------------|
+| **Copy Constructor** | Creates a new object by copying an existing object. |
+| **Move Constructor** | Transfers ownership of resources instead of copying them. |
+
+#### Use Move Constructor when:
+- Working with dynamically allocated resources.
+- Avoiding unnecessary deep copies for performance.
+- Handling large objects efficiently.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Copy Constructor: Is the Object Passed by Value or Reference, and Why?
+
+The object is **passed by reference** (`const ClassName &obj`), **not by value**.
+
+#### **Why?**
+**Avoids infinite recursion:**
+   - If the copy constructor accepted an object **by value**, it would call itself **infinitely** because passing by value requires making a copy first, which again calls the copy constructor.
+**More efficient:**
+   - Passing **by reference** prevents unnecessary copying, reducing memory usage and improving performance.
+**Preserves the original object:**
+   - Passing **by reference** ensures the original object remains unchanged.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Example {
+public:
+    int x;
+
+    // Copy Constructor (Passing by Reference)
+    Example(const Example &obj) {
+        x = obj.x;
+        cout << "Copy Constructor Called" << endl;
+    }
+
+    void display() {
+        cout << "Value of x: " << x << endl;
+    }
+};
+
+int main() {
+    Example obj1;  // Default object
+    obj1.x = 10;
+
+    Example obj2 = obj1;  // Calls Copy Constructor
+
+    obj2.display(); // Output: Value of x: 10
+}
+```
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Where is a Copy Constructor Called Implicitly?
+
+The copy constructor is **automatically invoked** in the following cases:
+
+#### **1. When Passing an Object by Value to a Function**
+```cpp
+class Example {
+public:
+    int x;
+
+    // Copy Constructor
+    Example(const Example &obj) {
+        x = obj.x;
+        cout << "Copy Constructor Called" << endl;
+    }
+
+    Example(int value) { x = value; }
+
+    void display() { cout << "Value: " << x << endl; }
+};
+
+// Function accepting an object by value (Triggers Copy Constructor)
+void show(Example obj) {
+    obj.display();
+}
+
+int main() {
+    Example obj1(10);
+    show(obj1); // Copy Constructor called when passing by value
+}
+```
+
+#### **2. When Returning an Object by Value from a Function**
+
+```cpp
+Example createObject() {
+    Example temp(20);
+    return temp; // Copy Constructor is called (may be optimized by RVO)
+}
+
+int main() {
+    Example obj2 = createObject(); // Copy Constructor is called
+}
+```
+
+**Modern compilers optimize this using Return Value Optimization (RVO) to avoid unnecessary copies.**
+
+#### **3. When Initializing an Object Using Another Object**
+
+```cpp
+Example obj1(30);
+Example obj2 = obj1; // Copy Constructor Called
+```
+
+#### **4. When Assigning an Object to Another at Declaration**
+
+```cpp
+Example obj1(40);
+Example obj2(obj1); // Copy Constructor Called
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Difference between Copy Constructor vs Assignment Operator?
+
+| **Copy Constructor**                                                    | **Assignment Operator**                                                                                       |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| It is an overloaded constructor.                                        | It is an operator.                                                                                            |
+| Creates a new object as a copy of an existing object.                   | Assigns the value of one object to another object, both of which already exist.                               |
+| Used when a new object is created from an existing object.              | Used when assigning an existing object to another existing object.                                            |
+| Both objects use separate memory locations.                             | Both objects share the same memory but use two different reference variables that point to the same location. |
+| If no copy constructor is defined, the compiler provides a default one. | If the assignment operator is not overloaded, a bitwise copy is performed by default.                         |
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What Does It Mean by Constructors with Default Arguments?
+
+Default arguments in a constructor are values that are provided in the constructor declaration. If arguments are not passed when calling the constructor, the default values are automatically used.
+
+**Key Benefits:**
+- Simplifies object creation by allowing flexibility in argument passing.
+- Avoids function overloading when default values are sufficient.
+- Helps maintain cleaner and more readable code.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Simple {
+    int data1;
+    int data2;
+    int data3;
+
+public:
+    // Constructor with default arguments
+    Simple(int a, int b = 9, int c = 8) {
+        data1 = a;
+        data2 = b;
+        data3 = c;
+    }
+
+    void printData();
+};
+
+void Simple::printData() {
+    cout << "The value of data1, data2, and data3 is "
+         << data1 << ", " << data2 << " and " << data3 << endl;
+}
+
+int main() {
+    Simple s(12, 13); // Uses default value for `c`
+    s.printData();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is Dynamic Initialization of Objects Using Constructors?
+
+Dynamic initialization of objects means that objects are initialized **at runtime** instead of compile-time.
+
+This is particularly useful when:
+- The data format varies.
+- Values are not known at compile-time.
+- Resources need to be allocated dynamically.
+
+```cpp
+class BankDeposit {
+    int principal;
+    int years;
+    float interestRate;
+    float returnValue;
+
+public:
+    BankDeposit() {} // Default constructor
+
+    // Constructor with float interest rate
+    BankDeposit(int p, int y, float r) {
+        principal = p;
+        years = y;
+        interestRate = r;
+        returnValue = principal;
+
+        for (int i = 0; i < y; i++) {
+            returnValue *= (1 + interestRate);
+        }
+    }
+
+    // Constructor with integer interest rate (percentage)
+    BankDeposit(int p, int y, int r) {
+        principal = p;
+        years = y;
+        interestRate = float(r) / 100; // Convert to decimal
+        returnValue = principal;
+
+        for (int i = 0; i < y; i++) {
+            returnValue *= (1 + interestRate);
+        }
+    }
+
+    void show() {
+        cout << "Principal amount: " << principal
+             << "\nReturn value after " << years
+             << " years: " << returnValue << endl;
+    }
+};
+
+int main() {
+    int p, y, r;
+    float R;
+
+    cout << "Enter principal, years, and interest rate (decimal format): ";
+    cin >> p >> y >> R;
+    BankDeposit bd1(p, y, R);
+    bd1.show();
+
+    cout << "\nEnter principal, years, and interest rate (percentage format): ";
+    cin >> p >> y >> r;
+    BankDeposit bd2(p, y, r);
+    bd2.show();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is Constructor Delegation?
+
+Constructor delegation is a feature in C++ that allows one constructor to **call another constructor** within the same class.
+
+This helps:
+- Avoid redundant code.
+- Maintain consistency in object initialization.
+- Improve code readability and maintainability.
+
+```cpp
+class Rectangle {
+    int length;
+    int width;
+
+public:
+    // Primary constructor
+    Rectangle(int l, int w) : length(l), width(w) {
+        cout << "Primary constructor called" << endl;
+    }
+
+    // Delegating constructor
+    Rectangle(int side) : Rectangle(side, side) {
+        cout << "Delegating constructor called" << endl;
+    }
+
+    void display() {
+        cout << "Length: " << length << ", Width: " << width << endl;
+    }
+};
+
+int main() {
+    Rectangle rect1(10, 20); // Calls primary constructor
+    rect1.display();
+
+    Rectangle square(5); // Calls delegating constructor
+    square.display();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is a Constructor Initialization List, What does it mean and why do we use it?
+
+A **constructor initialization list** in C++ is used to **initialize class member variables** before the constructor body executes.
+
+It is particularly useful when:
+- Initializing **const** or **reference** variables.
+- Calling base class constructors in **inheritance**.
+- Ensuring efficient initialization before executing constructor logic.
+
+```cpp
+class ClassName {
+    DataType member1;
+    DataType member2;
+
+public:
+    ClassName(Type param1, Type param2) : member1(param1), member2(param2) {
+        // Constructor body
+    }
+};
+```
+
+```cpp
+class Student {
+    const int id;   // Constant member
+    string name;
+
+public:
+    // Constructor using Initialization List
+    Student(int studentId, string studentName) : id(studentId), name(studentName) {
+        cout << "Constructor Called" << endl;
+    }
+
+    void display() {
+        cout << "ID: " << id << ", Name: " << name << endl;
+    }
+};
+
+int main() {
+    Student s1(101, "Ahad");
+    s1.display();
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Can a Constructor be Private or Protected?
+
+Yes, a constructor in C++ can be **private** or **protected**. This is commonly used in **Singleton Design Pattern** and when restricting object creation to controlled methods.
+
+#### Private Constructor
+A private constructor prevents direct instantiation of a class. It is useful when creating singleton classes.
+
+```cpp
+class Singleton {
+private:
+    static Singleton* instance;
+    Singleton() {} // Private Constructor
+
+public:
+    static Singleton* getInstance() {
+        if (!instance) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+};
+
+// Definition of static member
+Singleton* Singleton::instance = nullptr;
+
+int main() {
+    Singleton* obj = Singleton::getInstance(); // Allowed
+    // Singleton obj2; // ❌ Not Allowed (Constructor is private)
+}
+```
+
+#### Protected Constructor
+
+A **protected constructor** allows derived classes to create objects but prevents direct instantiation of the base class. This is useful when a class is meant to be inherited but should not be instantiated on its own.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Base {
+protected:
+    Base() { cout << "Base Constructor Called" << endl; }
+};
+
+class Derived : public Base {
+public:
+    Derived() { cout << "Derived Constructor Called" << endl; }
+};
+
+int main() {
+    // Base obj; // ❌ Not Allowed (Protected Constructor)
+    Derived obj; // ✅ Allowed
+}
+```
+
+- Private Constructors are used in Singleton Patterns.
+- Protected Constructors are used when inheritance is involved.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Can We Make a Constructor Private? If So, How Will We Create an Object of Such a Class?
+
+Yes! A **constructor can be private**, which restricts object creation outside the class.
+
+- A private constructor is commonly used in **Singleton Design Patterns** to ensure only one instance of a class exists.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Singleton {
+private:
+    static Singleton* instance; // Pointer to store the single instance
+
+    // Private Constructor
+    Singleton() {
+        cout << "Singleton Constructor Called" << endl;
+    }
+
+public:
+    // Static method to provide a global access point
+    static Singleton* getInstance() {
+        if (!instance) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+};
+
+// Define the static member
+Singleton* Singleton::instance = nullptr;
+
+int main() {
+    Singleton* obj1 = Singleton::getInstance(); // ✅ Allowed
+    Singleton* obj2 = Singleton::getInstance(); // ✅ Returns the same instance
+
+    cout << "obj1 and obj2 are the same instance: " << (obj1 == obj2) << endl;
+}
+```
+
+- Private Constructors prevent direct object creation from outside the class.
+- Singleton Pattern ensures only one instance of a class is created.
+- Objects are accessed through a static method like getInstance().
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is a Destructor?
+
+A **destructor** is a special member function of a class that is **automatically called** when an object goes out of scope or is explicitly deleted.
+
+- Its primary purpose is to **release resources** such as dynamically allocated memory or file handles.
+- The destructor has the **same name** as the class but is **prefixed with `~`** (tilde).
+- It is **automatically called** when:
+   - The object **goes out of scope**.
+   - The `delete` operator is used on a dynamically allocated object.
+- It does **not take any arguments** and does **not return a value**.
+- It is primarily used to:
+   - Free **dynamically allocated memory**.
+   - Clean up **resources** such as file handles or network connections.
+
+```cpp
+class ResourceHandler {
+    int* data; // Pointer to dynamically allocated memory
+
+public:
+    // Constructor
+    ResourceHandler(int value) {
+        data = new int(value); // Allocate memory
+        cout << "ResourceHandler constructed with value: " << *data << endl;
+    }
+
+    // Destructor
+    ~ResourceHandler() {
+        delete data; // Deallocate memory
+        cout << "ResourceHandler destroyed and memory deallocated" << endl;
+    }
+};
+
+int main() {
+    ResourceHandler handler(10); // ✅ Constructor is called here
+    // ✅ Destructor will be called automatically when 'handler' goes out of scope
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What are the Rules for Creating a Destructor?
+
+- The destructor has **the same name as the class** but is prefixed with `~` (tilde).
+- It **cannot take arguments** and **does not return a value**.
+- There can be **only one destructor** per class (it cannot be overloaded).
+- It is **automatically called** when:
+   - The object **goes out of scope**.
+   - The `delete` operator is used on a dynamically allocated object.
+- It is used to **release resources** (e.g., dynamic memory, file handles).
+- If a class has dynamically allocated resources, a **destructor must be explicitly defined** to prevent **memory leaks**.
+- If a base class destructor is **not virtual**, deleting a derived class object via a base class pointer may cause **undefined behavior**.
+- If a destructor is declared as **private**, the object cannot be destroyed directly, often used in **Singleton patterns**.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### When Do We Need to Define Destructors?
+
+A **destructor** is automatically called when an object goes out of scope or is explicitly deleted. However, in some cases, defining a **custom destructor** is necessary.
+
+#### When Should We Define a Destructor?
+You should explicitly define a destructor **when your class handles resources** such as:
+
+1. **Dynamically allocated memory**
+   - If a class allocates memory using `new`, a destructor should use `delete` to prevent **memory leaks**.
+
+2. **File handling**
+   - If a class **opens a file**, the destructor should **close it** to prevent resource leaks.
+
+3. **Database connections or network sockets**
+   - If a class manages a **database connection** or **network socket**, the destructor should close it properly.
+
+4. **Releasing acquired system resources**
+   - If a class acquires **mutex locks, threads, or GPU resources**, the destructor should ensure they are released.
+
+5. **Proper cleanup in inheritance (Virtual Destructor)**
+   - If a **base class** has a destructor, it should be **virtual** to ensure proper cleanup of derived class objects.
+
+```cpp
+class Example {
+private:
+    int* data; // Dynamically allocated memory
+
+public:
+    // Constructor
+    Example(int value) {
+        data = new int(value); // Allocate memory
+        cout << "Constructor: Memory allocated" << endl;
+    }
+
+    // Destructor
+    ~Example() {
+        delete data; // Free memory
+        cout << "Destructor: Memory deallocated" << endl;
+    }
+};
+
+int main() {
+    Example obj(10); // ✅ Constructor is called
+    // ✅ Destructor is automatically called when obj goes out of scope
+}
+```
+
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### What is Destructor Overloading?
+
+In C++, **destructor overloading is not possible** because a class can have **only one destructor**. The destructor must have:
+
+- The **same name** as the class.
+- A **tilde (~) prefix**.
+- **No parameters** and **no return type**.
+
+**Why Can’t We Overload a Destructor?**
+
+Since a destructor is **automatically called when an object is destroyed**, the compiler **would not know which destructor to invoke** if multiple destructors existed.
+
+```cpp
+class Example {
+public:
+    ~Example() {
+        cout << "Default Destructor Called!" << endl;
+    }
+
+    // ❌ This will cause a compilation error!
+    // ~Example(int x) {
+    //     cout << "Overloaded Destructor Called!" << endl;
+    // }
+};
+```
+
+**Alternative: Handling Multiple Cleanup Scenarios**
+
+Instead of overloading the destructor, you can use function overloading or custom cleanup methods.
+
+```cpp
+class Example {
+public:
+    Example() {
+        cout << "Constructor Called!" << endl;
+    }
+
+    ~Example() {
+        cout << "Destructor Called!" << endl;
+    }
+
+    void cleanup(int mode) {  // Custom cleanup method
+        if (mode == 1) {
+            cout << "Performing cleanup mode 1..." << endl;
+        } else {
+            cout << "Performing general cleanup..." << endl;
+        }
+    }
+};
+
+int main() {
+    Example obj;
+    obj.cleanup(1); // Manually calling a cleanup method
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Why Does a Class Have Only One Destructor & Why Do We Need One?
+
+A **destructor** is responsible for **cleaning up resources** when an object is destroyed. Unlike **constructors**, which can have multiple overloads to support different ways of initializing an object, **a destructor's job is always the same**: to **release resources** and **clean up the object** before it is removed from memory.
+
+##### Why Does a Class Have Only One Destructor?
+
+#### 1️. Single Cleanup Responsibility
+- A class can be **initialized in multiple ways** (using different constructors), but **destruction is always a single operation**.
+- No matter how an object is created, it **must be destroyed in a single, predictable way**.
+
+#### 2️. Automatic Invocation
+- The **destructor is called automatically** when an object **goes out of scope**.
+- If multiple destructors were allowed, the **compiler wouldn’t know which one to call**.
+
+#### 3️. Memory and Resource Management
+- A class may allocate resources (**dynamic memory, file handles, sockets, etc.**).
+- The destructor ensures that **all allocated resources are released properly**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class ABC {
+public:
+    int a;
+
+    // Multiple constructors (Constructor Overloading)
+    ABC() { cout << "Default Constructor\n"; }
+    ABC(int) { cout << "Parameterized Constructor\n"; }
+
+    // Single Destructor
+    ~ABC() { cout << "Destructor Called\n"; }
+};
+
+int main() {
+    ABC obj1;   // Calls default constructor
+    ABC obj2(5);  // Calls parameterized constructor
+
+    return 0;  // Destructor is automatically called for both objects
+}
+```
+
+---
+
+**If There’s Only One Destructor, Why Do We Need One?**
+
+- **A destructor prevents memory leaks** by **freeing dynamically allocated memory**.
+- **It ensures proper cleanup** of resources like **file handles, sockets, or dynamic arrays**.
+- **Without a destructor, a program can suffer from memory leaks** and **resource mismanagement**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Example {
+private:
+    int* data; // Dynamically allocated memory
+
+public:
+    // Constructor: Allocates memory
+    Example(int value) {
+        data = new int(value);
+        cout << "Constructor: Memory allocated for " << *data << endl;
+    }
+
+    // Destructor: Frees memory
+    ~Example() {
+        delete data;
+        cout << "Destructor: Memory deallocated" << endl;
+    }
+};
+
+int main() {
+    Example obj1(10); // Constructor is called
+    Example obj2(20); // Constructor is called
+
+    // Destructors will be called automatically when obj1 and obj2 go out of scope
+    return 0;
+}
+```
+
+---
+
+**Can We Call a Destructor Explicitly?**
+
+- **Yes, but it is NOT recommended**
+- If you explicitly call a destructor, the **object’s memory might be released prematurely**.
+- When the compiler **automatically calls the destructor again**, it can lead to **undefined behavior** (e.g., double deletion error).
+
+#### Calling Destructor Manually (Not Recommended)
+
+```cpp
+int main() {
+    Example obj(30);
+    obj.~Example();  // ❌ Explicit call to destructor (NOT recommended)
+}
+```
+
+- **Let the compiler handle destructor calls instead!**
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+### Can a Destructor be Private or Protected?
+
+Yes, **a destructor can be `private` or `protected`**, but this is not common.
+Usually, destructors are `public` so that objects can be **automatically destroyed**
+when they go out of scope.
+
+#### **Why Make a Destructor Private or Protected?**
+- **Prevent Direct Deletion**: Stops objects from being deleted using `delete`.
+- **Implement Singleton Pattern**: Ensures only one instance of a class exists.
+- **Prevent Stack Allocation**: Ensures objects are created dynamically.
+- **Enforce Custom Object Lifecycle**: Controls how and when an object is destroyed.
+
+#### **1. Private Destructor (Prevent Direct Object Creation)**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Example {
+private:
+    ~Example() { cout << "Destructor Called\n"; } // Private Destructor
+
+public:
+    static void destroy(Example* obj) {
+        delete obj; // Manual deletion via static method
+    }
+
+    void show() { cout << "Hello from Example\n"; }
+
+    // Factory method to create objects dynamically
+    static Example* createInstance() {
+        return new Example();
+    }
+};
+
+int main() {
+    // Example obj; ❌ ERROR: Destructor is private, stack allocation is forbidden
+
+    Example* obj = Example::createInstance();  // ✅ Allowed (dynamic allocation)
+    obj->show();
+    Example::destroy(obj);  // ✅ Destructor called manually
+}
+// Since the destructor is private, objects must be created dynamically!
+// Only destroy() can delete the object, preventing accidental deletions.
+```
+
+#### **2. Protected Destructor (Inheritance Use-Case)**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Base {
+protected:
+    ~Base() { cout << "Base Destructor Called\n"; } // Protected Destructor
+
+public:
+    void show() { cout << "Hello from Base\n"; }
+};
+
+class Derived : public Base {
+public:
+    ~Derived() { cout << "Derived Destructor Called\n"; }
+};
+
+int main() {
+    // Base obj; ❌ ERROR: Destructor is protected, cannot create Base objects directly
+
+    Derived obj;  // ✅ Allowed (Derived class can access protected destructor)
+    obj.show();
+
+// A protected destructor allows inheritance but prevents standalone object creation.
+// This is useful when designing base classes that should only be inherited!
+}
+```
+
+---
+
+####  **When Should You Use Private or Protected Destructors?**
+
+| Destructor Type  | Use Case |
+|-----------------|----------|
+| **`public`** (Default) | Normal object lifecycle, automatic deletion. |
+| **`private`** | Enforces dynamic allocation, prevents accidental deletion. |
+| **`protected`** | Allows inheritance but prevents direct instantiation. |
+
+---
+
+####  **Can You Explicitly Call a Private Destructor?**
+
+- **No**, it **cannot be called outside the class**.
+- **Yes**, it **can be called within a friend function**.
+
+##### **Calling a Private Destructor Using a Friend Function**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Example {
+private:
+    ~Example() { cout << "Destructor Called\n"; }
+
+    friend void destroyObject(Example*); // Friend function declaration
+};
+
+void destroyObject(Example* obj) {
+    delete obj;  // ✅ Allowed, as it's a friend function
+}
+
+int main() {
+    // Example obj; ❌ ERROR: Destructor is private
+
+    Example* obj = new Example();
+    destroyObject(obj); // ✅ Destructor is called via friend function
+}
+```
+
+- **Public Destructor** → Default, objects destroyed normally.
+- **Private Destructor** → Prevents stack allocation, used in Singletons.
+- **Protected Destructor** → Used in base classes to enforce inheritance.
+- **Friend functions or static methods** can delete objects with private destructors.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+###[text](<c:/Users/786/Downloads/coding.resources-master/cpp + oop + dsa/oop/mosh/Classes + Constructor/1.cpp>)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
 **[⬆ Back to Top](#table-of-contents)**
 
 ---

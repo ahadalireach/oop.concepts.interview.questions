@@ -21,8 +21,8 @@ using namespace std;
 //         };
 //         int getArea(){
 //             return width * height;
-//         };    
-//         // Getter 
+//         };
+//         // Getter
 //         int getWidth(){
 //             return width;
 //         };
@@ -54,7 +54,7 @@ using namespace std;
 // };
 
 // int main() {
-    
+
 //     try
 //     {
 //         int width, height;
@@ -73,7 +73,7 @@ using namespace std;
 //     {
 //         cout << "Error: " << e.what() << '\n';
 //     };
-    
+
 
 // }
 
@@ -139,7 +139,7 @@ using namespace std;
 //         cout << "Close a file" << endl;
 //         cout << e.what() << '\n';
 //     };
-    
+
 // };
 
 // void doWork(){
@@ -171,7 +171,7 @@ using namespace std;
 // };
 
 // int main(){
-    
+
 //     try
 //     {
 //         login();
