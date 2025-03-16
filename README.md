@@ -52,8 +52,8 @@
 | 046. | [What is Pointer to Objects in C++? What are its Purpose and Benefits?](#pointer-to-objects-in-c-purpose-and-benefits) |
 | 047. | [How is Memory Allocated for Variables, Functions, Member Functions, and Data Members?](#how-is-memory-allocation-for-variables-functions-member-functions-and-data-members) |
 | 048. | [What are Access Specifiers in OOP?](#what-are-access-specifiers-in-oop) |
-| 049. | [What is the Default Access Modifier in a Class?](#default-access-modifier-in-a-class) |
-| 050. | [What is the Sealed Modifier?](#what-is-the-sealed-modifier) |
+| 049. | [What is the Default Access Modifier in a Class?](#what-is-the-default-access-modifier-in-a-class) |
+| 050. | [What is Sealed Modifier?](#what-is-the-sealed-modifier) |
 | 051. | [## What is Dynamic Memory Allocation (DMA) and the new Keyword? What are Their Purpose and Benefits?](#what-is-dynamic-memory-allocation-dma-and-the-new-keyword-in-c-purpose-and-benefits) |
 | 052. | [What is the `delete` Keyword? What are its Purpose and Benefits?](#what-is-the-delete-keyword-in-c-purpose-and-benefits) |
 | 053. | [What is the Arrow (`->`) and Dot (`.`) Operator? What is its Purpose or Benefit?](#what-is-the-arrow--and-dot--operator-in-c) |
@@ -153,31 +153,31 @@
 | 147. | [What is the Difference between Generalization, Aggregation, Composition and Association?](#generalization-vs-aggregation-vs-composition-vs-association) |
 | 148. | [Explain the concept of Coupling and Cohesion?](#explain-the-concept-of-coupling-and-cohesion) |
 | 149. | [Describe the Purpose, Importance, and Use of all the Keywords used in OOP, and what problem they solve:](#describe-the-purpose-importance-and-use-of-all-the-keywords-used-in-oop-and-what-problem-they-solve) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Static`](#static) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Virtual`](#virtual) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Abstract`](#abstract) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Final`](#final) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Explicit`](#explicit) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `This`](#this) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `New`](#new) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Const`](#const) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Super`](#super) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Override`](#override) |
+|      | [`Static`](#static) |
+|      | [`Virtual`](#virtual) |
+|      | [`Abstract`](#abstract) |
+|      | [`Final`](#final) |
+|      | [`Explicit`](#explicit) |
+|      | [`This`](#this) |
+|      | [`New`](#new) |
+|      | [`Const`](#const) |
+|      | [`Super`](#super) |
+|      | [`Override`](#override) |
 | 150. | [Why do we need all the OOP concepts?](#why-do-we-need-all-the-oop-concepts) |
-| 151. | [What problems do OOP concepts like Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism, and other related concepts solve?](#what-problems-do-oop-concepts-like-class-object-encapsulation-abstraction-inheritance-polymorphism-solve) |
+| 151. | [What problems do OOP concepts like Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism, and other related concepts solve?](#what-problems-do-oop-concepts-like-class-object-encapsulation-abstraction-inheritance-polymorphism-and-other-related-concepts-solve) |
 | 152. | [What problems arise without Static Binding, Dynamic Binding, Function Overloading, Function Overriding, and Inheritance? How do these concepts solve those problems and contribute to Object-Oriented Programming (OOP)?](#what-problems-arise-without-static-binding-dynamic-binding-function-overloading-function-overriding-and-inheritance-how-do-these-concepts-solve-those-problems-and-contribute-to-object-oriented-programming-oop) |
 | 153. | [Provide at least 3 Real-World Examples of OOP Concepts](#provide-at-least-3-real-world-examples-of-oop-concepts) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Class`](#class) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Object`](#object) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Encapsulation`](#encapsulation) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Abstraction`](#abstraction) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Inheritance`](#inheritance) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Polymorphism`](#polymorphism) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Static vs Dynamic`](#static-vs-dynamic) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Function Overloading`](#function-overloading) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Function Overriding`](#function-overriding) |
-|      | [&nbsp;&nbsp;&nbsp;&nbsp;- `Inheritance Types`](#inheritance-types) |
-| 154. | [How Do OOP Pillars Relate to Real-Life? (Self-Mapped Examples)](#oop-pillars-with-real-life-self-mapped-examples) |
+|      | [`Class`](#class) |
+|      | [`Object`](#object) |
+|      | [`Encapsulation`](#encapsulation) |
+|      | [`Abstraction`](#abstraction) |
+|      | [`Inheritance`](#inheritance) |
+|      | [`Polymorphism`](#polymorphism) |
+|      | [`Static vs Dynamic`](#static-vs-dynamic) |
+|      | [`Function Overloading`](#function-overloading) |
+|      | [`Function Overriding`](#function-overriding) |
+|      | [`Inheritance Types`](#inheritance-types) |
+| 154. | [How Do OOP Pillars Relate to Real-Life? (Self-Mapped Examples)](#how-do-oop-pillars-relate-to-real-life-self-mapped-examples) |
 
 
 ## What is Programming, and Why is C++ a Preferred Language?
@@ -1804,6 +1804,33 @@ int main() {
 
 ---
 
+## Some Visual Things about OOP
+
+<p align="center">
+  <img src="1. OOP.png" width="48%" height="250px" alt="OOP Image 1">
+  <img src="2. OOP.png" width="48%" height="250px" alt="OOP Image 2">
+</p>
+
+<p align="center">
+  <img src="3. OOP.png" width="97%" height="400px" alt="OOP Image 3">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="4. OOP.jpg" width="32.5%" height="350px" alt="OOP Image 4">
+  <img src="5. OOP.jpg" width="32.5%" height="350px" alt="OOP Image 5">
+  <img src="6. OOP.jpg" width="32.5%" height="350px" alt="OOP Image 6">
+</p>
+
+<p align="center">
+  <img src="7. OOP.jpg" width="32.5%" height="350px" alt="OOP Image 7">
+  <img src="8. OOP.jpg" width="32.5%" height="350px" alt="OOP Image 8">
+  <img src="9. OOP.jpg" width="32.5%" height="350px" alt="OOP Image 9">
+</p>
+
+---
+
 ## Why OOP? Purpose of Implementing OOP?
 
 OOP provides several benefits that make software development efficient and maintainable:
@@ -1960,7 +1987,7 @@ Languages like **Java, C++, Python, and C#** are not purely object-oriented beca
 
 ---
 
-## What is Struct?
+## What is a Struct?
 
 - A struct (structure) is a user-defined data type in C++ that groups related variables under a single name.
 - Structs are typically used for lightweight objects that hold data without requiring encapsulation or functionality.
@@ -8145,10 +8172,10 @@ However, when **virtual functions** were introduced, function calls needed to be
 V-Tables **solve this problem** by storing pointers to the correct function **at runtime**, allowing polymorphism to work.
 
 ### 🏗️ How Does V-Table Work?
-1️⃣ Each class with virtual functions gets a **V-Table**.
-2️⃣ The V-Table stores **pointers to virtual functions** of that class.
-3️⃣ Each object of such a class has a hidden pointer called **vptr (Virtual Pointer)** that points to the class's V-Table.
-4️⃣ When a virtual function is called, the **vptr** is used to look up the function in the **V-Table**, ensuring the correct function is executed.
+- Each class with virtual functions gets a **V-Table**.
+- The V-Table stores **pointers to virtual functions** of that class.
+- Each object of such a class has a hidden pointer called **vptr (Virtual Pointer)** that points to the class's V-Table.
+- When a virtual function is called, the **vptr** is used to look up the function in the **V-Table**, ensuring the correct function is executed.
 
 ```cpp
 class Base {
@@ -8191,12 +8218,12 @@ int main() {
 ### 🎯 Step-by-Step Execution of V-Table in C++
 
 #### Execution Process:
-1️⃣ `Base* b = new Derived();`
+1️. `Base* b = new Derived();`
    - A **Derived object** is created but accessed via a **Base class pointer**.
-2️⃣ The **vptr** of `b` points to the **V-Table of Derived class**.
-3️⃣ `b->show();` is called.
-4️⃣ The **vptr** checks the **V-Table** and resolves `show()` to `Derived::show()`.
-5️⃣ **Output:**
+2️. The **vptr** of `b` points to the **V-Table of Derived class**.
+3️. `b->show();` is called.
+4️. The **vptr** checks the **V-Table** and resolves `show()` to `Derived::show()`.
+5️. **Output:**
     `Derived class show() called`
 
 - **V-Table enables runtime polymorphism.**
@@ -8214,8 +8241,8 @@ A **final class** is a class that **cannot be inherited**. While C++11 introduce
 
 ### How to Simulate a Final Class?
 To **simulate a final class** in pre-C++11, you can:
-1️⃣ Declare the **constructor as private** and provide a **friend factory function**.
-2️⃣ Make the **base class destructor private** and provide a public static method to create instances.
+1️. Declare the **constructor as private** and provide a **friend factory function**.
+2️. Make the **base class destructor private** and provide a public static method to create instances.
 
 ```cpp
 // Preventing Inheritance Manually
@@ -8421,7 +8448,7 @@ int main() {
 
 Yes, you can call a base class method without instantiating it if:
 
-1️⃣ **It is a static method**
+1️. **It is a static method**
    - Static methods belong to the class itself, not to an instance.
    ```cpp
    class Base {
@@ -8436,7 +8463,7 @@ Yes, you can call a base class method without instantiating it if:
    }
    ```
 
-2️⃣ **The base class is inherited by a subclass**
+2️. **The base class is inherited by a subclass**
     - If a method is not private, a derived class can call it.
     ```cpp
     class Base {
@@ -8504,9 +8531,9 @@ int main() {
 
 If a class does not implement all the methods of an **interface (pure abstract class)**, then:
 
-1️⃣ The class itself becomes **abstract** and cannot be instantiated.
-2️⃣ The class must be marked as **abstract** or implement the missing methods in a derived class.
-3️⃣ If an object of such a class is created, the compiler will throw an **error**.
+- The class itself becomes **abstract** and cannot be instantiated.
+- The class must be marked as **abstract** or implement the missing methods in a derived class.
+- If an object of such a class is created, the compiler will throw an **error**.
 
 ```cpp
 // Missing Implementation Causes an Error
@@ -10045,12 +10072,12 @@ public:
 
 ### Why OOP Concepts Are Essential?
 
-✅ **Modularity:** Divides the program into small, manageable sections.
-✅ **Code Reusability:** Reduces redundancy by reusing code through inheritance and composition.
-✅ **Maintainability:** Makes it easier to update or modify code without affecting the entire system.
-✅ **Security:** Encapsulation and abstraction prevent direct access to sensitive data.
-✅ **Scalability:** Helps in developing large and complex software applications efficiently.
-✅ **Extensibility:** Allows adding new features without modifying existing code.
+- **Modularity:** Divides the program into small, manageable sections.
+- **Code Reusability:** Reduces redundancy by reusing code through inheritance and composition.
+- **Maintainability:** Makes it easier to update or modify code without affecting the entire system.
+- **Security:** Encapsulation and abstraction prevent direct access to sensitive data.
+- **Scalability:** Helps in developing large and complex software applications efficiently.
+- **Extensibility:** Allows adding new features without modifying existing code.
 
 **[⬆ Back to Top](#table-of-contents)**
 
